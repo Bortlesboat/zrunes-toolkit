@@ -1,0 +1,653 @@
+{
+  "generatedAt": "2026-09-25T19:08:57.844Z",
+  "mode": "sample",
+  "chainComplete": false,
+  "implementation": {
+    "ledgerSha256": "df55c150673a7aa30b7d48cbe42b139183681626d7332aaa5b96fbdd319d38ab",
+    "codecSha256": "1917592d8ef140684d7e4c52dfc891c3cbf43c9b8250ce7532ed280e1d508510",
+    "bundleSha256": "cb4e0dfcc542f4d23afd2f15d022475041e6d2e5a941fa3815038396f4c09f5b"
+  },
+  "decodedTransactions": 88,
+  "classifications": {
+    "valid": 23,
+    "malformed": 5,
+    "absent": 60
+  },
+  "comparedAssertions": 96,
+  "mismatches": [],
+  "ordinaryBalanceSpends": [],
+  "limitation": "Sample dependency coverage for the discovered balances; neither exhaustive activation-to-tip scanning nor independent Zcash consensus verification.",
+  "unspentChecks": [
+    {
+      "outpoint": "409ae1537d94d6e9575976c072982698c21c30885e7094ab82fd571a31e68d5d:0",
+      "spent": false,
+      "url": "https://api.mainnet.cipherscan.app/api/tx/409ae1537d94d6e9575976c072982698c21c30885e7094ab82fd571a31e68d5d",
+      "observedAt": "2026-09-25T18:27:18.086398+00:00"
+    },
+    {
+      "outpoint": "581abf103a4a0f581ece8682d9b1a90b4e3c76325193f685155f7d05873d015c:0",
+      "spent": false,
+      "url": "https://api.mainnet.cipherscan.app/api/tx/581abf103a4a0f581ece8682d9b1a90b4e3c76325193f685155f7d05873d015c",
+      "observedAt": "2026-09-25T18:27:18.115162+00:00"
+    },
+    {
+      "outpoint": "7b56fd0543efe3f598e0489416a9aa44517f225a629804cbe998d68c100c12fb:0",
+      "spent": false,
+      "url": "https://api.mainnet.cipherscan.app/api/tx/7b56fd0543efe3f598e0489416a9aa44517f225a629804cbe998d68c100c12fb",
+      "observedAt": "2026-09-25T18:27:18.120162+00:00"
+    }
+  ],
+  "snapshot": {
+    "schema": "zec-market-zrunes-ledger-v1",
+    "protocol": "zrunes-v1",
+    "network": "mainnet",
+    "tip": {
+      "height": 3495855,
+      "hash": "00000000007d3cb4c0c20f07f33c0759e9273aa0853c78b7efe7d5eccc3f3476"
+    },
+    "coverage": {
+      "mode": "sample",
+      "complete": false,
+      "from": 3488571,
+      "to": 3495855,
+      "gaps": [
+        {
+          "from": 3488572,
+          "to": 3488573
+        },
+        {
+          "from": 3488575,
+          "to": 3488579
+        },
+        {
+          "from": 3488581,
+          "to": 3488584
+        },
+        {
+          "from": 3488586,
+          "to": 3488589
+        },
+        {
+          "from": 3488591,
+          "to": 3488723
+        },
+        {
+          "from": 3488725,
+          "to": 3488752
+        },
+        {
+          "from": 3488754,
+          "to": 3488755
+        },
+        {
+          "from": 3488757,
+          "to": 3488781
+        },
+        {
+          "from": 3488783,
+          "to": 3488784
+        },
+        {
+          "from": 3488786,
+          "to": 3488791
+        },
+        {
+          "from": 3488793,
+          "to": 3488828
+        },
+        {
+          "from": 3488830,
+          "to": 3488978
+        },
+        {
+          "from": 3488980,
+          "to": 3488983
+        },
+        {
+          "from": 3488985,
+          "to": 3488999
+        },
+        {
+          "from": 3489001,
+          "to": 3489002
+        },
+        {
+          "from": 3489004,
+          "to": 3489853
+        },
+        {
+          "from": 3489855,
+          "to": 3490051
+        },
+        {
+          "from": 3490053,
+          "to": 3490991
+        },
+        {
+          "from": 3490993,
+          "to": 3492164
+        },
+        {
+          "from": 3492166,
+          "to": 3493047
+        },
+        {
+          "from": 3493050,
+          "to": 3493054
+        },
+        {
+          "from": 3493056,
+          "to": 3493306
+        },
+        {
+          "from": 3493308,
+          "to": 3493474
+        },
+        {
+          "from": 3493476,
+          "to": 3493861
+        },
+        {
+          "from": 3493863,
+          "to": 3494439
+        },
+        {
+          "from": 3494441,
+          "to": 3494441
+        },
+        {
+          "from": 3494443,
+          "to": 3494607
+        },
+        {
+          "from": 3494609,
+          "to": 3494635
+        },
+        {
+          "from": 3494637,
+          "to": 3494638
+        },
+        {
+          "from": 3494640,
+          "to": 3494646
+        },
+        {
+          "from": 3494648,
+          "to": 3494650
+        },
+        {
+          "from": 3494652,
+          "to": 3494656
+        },
+        {
+          "from": 3494658,
+          "to": 3494799
+        },
+        {
+          "from": 3494801,
+          "to": 3495102
+        },
+        {
+          "from": 3495104,
+          "to": 3495127
+        },
+        {
+          "from": 3495129,
+          "to": 3495136
+        },
+        {
+          "from": 3495138,
+          "to": 3495144
+        },
+        {
+          "from": 3495146,
+          "to": 3495216
+        },
+        {
+          "from": 3495218,
+          "to": 3495218
+        },
+        {
+          "from": 3495220,
+          "to": 3495220
+        },
+        {
+          "from": 3495222,
+          "to": 3495222
+        },
+        {
+          "from": 3495224,
+          "to": 3495224
+        },
+        {
+          "from": 3495226,
+          "to": 3495229
+        },
+        {
+          "from": 3495231,
+          "to": 3495236
+        },
+        {
+          "from": 3495238,
+          "to": 3495512
+        },
+        {
+          "from": 3495514,
+          "to": 3495523
+        },
+        {
+          "from": 3495526,
+          "to": 3495675
+        },
+        {
+          "from": 3495677,
+          "to": 3495792
+        },
+        {
+          "from": 3495794,
+          "to": 3495854
+        }
+      ]
+    },
+    "assets": [
+      {
+        "id": "3488585:43",
+        "name": "GLASSTESTONE",
+        "etchTxid": "275bc2e6bdb94cc1fd1d4943fdcfc1ae33ecdc00793525c1147255cad3c98f87",
+        "etchHeight": 3488585,
+        "divisibility": 0,
+        "premine": "1000",
+        "amount": "0",
+        "cap": "0",
+        "start": null,
+        "end": null,
+        "mints": "0",
+        "burned": "298",
+        "closed": true,
+        "supply": "1000",
+        "circulating": "702"
+      },
+      {
+        "id": "3493055:7",
+        "name": "ZEBRA",
+        "etchTxid": "2060d54cf095967fe5bc988cf87b895f3811294780456ef87fab4ba5ab8e60fc",
+        "etchHeight": 3493055,
+        "divisibility": 18,
+        "premine": "0",
+        "amount": "1000",
+        "cap": "21000000",
+        "start": 3493056,
+        "end": null,
+        "mints": "0",
+        "burned": "0",
+        "closed": false,
+        "supply": "0",
+        "circulating": "0"
+      },
+      {
+        "id": "3494657:20",
+        "name": "ZRUNES",
+        "etchTxid": "0775ec7191db754382f1ff0adf563e9af65a4030eee66d9817771387f07db68b",
+        "etchHeight": 3494657,
+        "divisibility": 18,
+        "premine": "0",
+        "amount": "1000000000000000000000",
+        "cap": "21000",
+        "start": 3494658,
+        "end": null,
+        "mints": "1",
+        "burned": "0",
+        "closed": false,
+        "supply": "1000000000000000000000",
+        "circulating": "1000000000000000000000"
+      },
+      {
+        "id": "3495145:3",
+        "name": "ZKZKGOOSE",
+        "etchTxid": "8e615ac63077c8042a109fc741fe5c1643d515066ded539059c5eb89db7ea611",
+        "etchHeight": 3495145,
+        "divisibility": 18,
+        "premine": "0",
+        "amount": "690000000000000000000",
+        "cap": "10000",
+        "start": 3495146,
+        "end": null,
+        "mints": "0",
+        "burned": "0",
+        "closed": false,
+        "supply": "0",
+        "circulating": "0"
+      },
+      {
+        "id": "3495225:1",
+        "name": "ACCIDENTALLYZEC",
+        "etchTxid": "63a356d3b0567cf518f0347c1cd73cd18ee4810cc7caaf4bf68c37adcce844fe",
+        "etchHeight": 3495225,
+        "divisibility": 18,
+        "premine": "0",
+        "amount": "3800000000000000000000",
+        "cap": "10000",
+        "start": 3495226,
+        "end": null,
+        "mints": "0",
+        "burned": "0",
+        "closed": false,
+        "supply": "0",
+        "circulating": "0"
+      },
+      {
+        "id": "3495230:8",
+        "name": "ZECCATCAMEHOME",
+        "etchTxid": "312ecb0ed723013144f461b1edd808b0c9ac577c29bbf4529d2e47a6c8a86b18",
+        "etchHeight": 3495230,
+        "divisibility": 18,
+        "premine": "0",
+        "amount": "900000000000000000000",
+        "cap": "10000",
+        "start": 3495231,
+        "end": null,
+        "mints": "0",
+        "burned": "0",
+        "closed": false,
+        "supply": "0",
+        "circulating": "0"
+      },
+      {
+        "id": "3495237:9",
+        "name": "TENYEARSNOOVERSHARING",
+        "etchTxid": "0df90a31759206a7d3ad18475039c7821069cf012b0c435412ce397aeec8afaa",
+        "etchHeight": 3495237,
+        "divisibility": 18,
+        "premine": "0",
+        "amount": "1000000000000000000000",
+        "cap": "10000",
+        "start": 3495238,
+        "end": null,
+        "mints": "0",
+        "burned": "0",
+        "closed": false,
+        "supply": "0",
+        "circulating": "0"
+      }
+    ],
+    "outputs": [
+      {
+        "outpoint": "409ae1537d94d6e9575976c072982698c21c30885e7094ab82fd571a31e68d5d:0",
+        "script": "a914374565261bfeec5f95f2d0506d6b4e852375a0b487",
+        "balances": {
+          "3488585:43": "692"
+        }
+      },
+      {
+        "outpoint": "581abf103a4a0f581ece8682d9b1a90b4e3c76325193f685155f7d05873d015c:0",
+        "script": "76a9140bf5eec802da8df65735c762ce4024015cf7c59888ac",
+        "balances": {
+          "3494657:20": "1000000000000000000000"
+        }
+      },
+      {
+        "outpoint": "7b56fd0543efe3f598e0489416a9aa44517f225a629804cbe998d68c100c12fb:0",
+        "script": "76a914d2a264e15e8a849ee17acb70d14237a2df7954d988ac",
+        "balances": {
+          "3488585:43": "10"
+        }
+      }
+    ]
+  },
+  "carrierDetails": [
+    {
+      "txid": "275bc2e6bdb94cc1fd1d4943fdcfc1ae33ecdc00793525c1147255cad3c98f87",
+      "height": 3488585,
+      "index": 43,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "7b56fd0543efe3f598e0489416a9aa44517f225a629804cbe998d68c100c12fb",
+      "height": 3488590,
+      "index": 31,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "45a6504891069209295ae79bcf546631fbca59a3751ff100caf78017b83053a1",
+      "height": 3488724,
+      "index": 18,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "d822b4bcf6c76e4f5e4c86da1b9a3bd20fc111bc630aa55f7fa8751af9d96be1",
+      "height": 3488756,
+      "index": 61,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "48e49838ea3b1aef2731f1dc2865aefe3575b0f951d066c62c727b3df6114394",
+      "height": 3488782,
+      "index": 10,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "105622692f3bf46fcfcf834c592793a1a23512a2fae1ae07db8d75dca377f4e1",
+      "height": 3488785,
+      "index": 38,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "6090fdd8accbc3f80a54a3cd83f60c283587d9711bd3f9b3911fc11c57a46c02",
+      "height": 3488792,
+      "index": 91,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "409ae1537d94d6e9575976c072982698c21c30885e7094ab82fd571a31e68d5d",
+      "height": 3488792,
+      "index": 92,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "d061eb96af359fc36098f4acc17c549fb11bbce436b8bccb3a112f9fdbb5fc56",
+      "height": 3488979,
+      "index": 11,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "3a8b6c46ade30e42b3d2a0bddc2ff18e366c34b74bfb7a322c741c4188871b68",
+      "height": 3488979,
+      "index": 12,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "08743f39d0880e548865e56970808b222ee42852b8f9181bb1c82510e27fe7a6",
+      "height": 3488979,
+      "index": 13,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "ddfb988f521b7f166411b545c92afe1ee19790c44387ddbf5613498d32b2bb5c",
+      "height": 3488979,
+      "index": 14,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "2533d18d8255561a94aca6bd5df42f6e5ed108a50fd8f0f627f3cc191fbc20f5",
+      "height": 3488979,
+      "index": 15,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "f004c89292d401c9111e45a56daf552b72699d0f7c87c3456a1e059aa5b86a37",
+      "height": 3488979,
+      "index": 16,
+      "kind": "malformed",
+      "errors": [
+        "unknown_even_tag"
+      ]
+    },
+    {
+      "txid": "986fbbd1cda12b3e3d7b6c1e5c7f9d29f3a0b641ba3a55d5840a8b5a80ee9e29",
+      "height": 3488979,
+      "index": 17,
+      "kind": "malformed",
+      "errors": [
+        "unknown_even_tag"
+      ]
+    },
+    {
+      "txid": "282c4bbc584d149a7567a8e540f2d414d2c72004c8c1719d9361f34c30b21d9f",
+      "height": 3488979,
+      "index": 18,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "ef1411d2d212db9a3b7b231ddb9742f901a4376f2a902d17fdd188eb606e6fe4",
+      "height": 3488979,
+      "index": 19,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "5e7fca52936abbb83a1641b43a7975fbe434f2a0a2b9eb55753021375097acb1",
+      "height": 3488979,
+      "index": 20,
+      "kind": "malformed",
+      "errors": [
+        "edict_output_out_of_range"
+      ]
+    },
+    {
+      "txid": "9ea65848dadf899188ef70ac62c6682ee12451cbdd91d515b4c168d0c2ed9403",
+      "height": 3488979,
+      "index": 21,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "f0267f16a6507ad1bf881334dd16a798f267a126801951e2ba88476d2d851227",
+      "height": 3488979,
+      "index": 22,
+      "kind": "malformed",
+      "errors": [
+        "truncated_pair"
+      ]
+    },
+    {
+      "txid": "1d452f54353f9e997bbe83061076467179169a0820219188765baee521d1d93d",
+      "height": 3488984,
+      "index": 41,
+      "kind": "malformed",
+      "errors": [
+        "unknown_even_tag"
+      ]
+    },
+    {
+      "txid": "2060d54cf095967fe5bc988cf87b895f3811294780456ef87fab4ba5ab8e60fc",
+      "height": 3493055,
+      "index": 7,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "0775ec7191db754382f1ff0adf563e9af65a4030eee66d9817771387f07db68b",
+      "height": 3494657,
+      "index": 20,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "581abf103a4a0f581ece8682d9b1a90b4e3c76325193f685155f7d05873d015c",
+      "height": 3494800,
+      "index": 2,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "8e615ac63077c8042a109fc741fe5c1643d515066ded539059c5eb89db7ea611",
+      "height": 3495145,
+      "index": 3,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "63a356d3b0567cf518f0347c1cd73cd18ee4810cc7caaf4bf68c37adcce844fe",
+      "height": 3495225,
+      "index": 1,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "312ecb0ed723013144f461b1edd808b0c9ac577c29bbf4529d2e47a6c8a86b18",
+      "height": 3495230,
+      "index": 8,
+      "kind": "valid",
+      "errors": []
+    },
+    {
+      "txid": "0df90a31759206a7d3ad18475039c7821069cf012b0c435412ce397aeec8afaa",
+      "height": 3495237,
+      "index": 9,
+      "kind": "valid",
+      "errors": []
+    }
+  ],
+  "events": [
+    {
+      "kind": "etch",
+      "id": "3488585:43",
+      "closed": true
+    },
+    {
+      "kind": "burn",
+      "id": "3488585:43",
+      "amount": "298"
+    },
+    {
+      "kind": "etch",
+      "id": "3493055:7",
+      "closed": false
+    },
+    {
+      "kind": "etch",
+      "id": "3494657:20",
+      "closed": false
+    },
+    {
+      "kind": "mint",
+      "id": "3494657:20",
+      "amount": "1000000000000000000000",
+      "burned": false
+    },
+    {
+      "kind": "etch",
+      "id": "3495145:3",
+      "closed": false
+    },
+    {
+      "kind": "etch",
+      "id": "3495225:1",
+      "closed": false
+    },
+    {
+      "kind": "etch",
+      "id": "3495230:8",
+      "closed": false
+    },
+    {
+      "kind": "etch",
+      "id": "3495237:9",
+      "closed": false
+    }
+  ]
+}

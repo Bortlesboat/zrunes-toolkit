@@ -1,0 +1,41 @@
+{
+  "schema": "zrunes-independent-settlement-check-v1",
+  "checkedAt": "2026-09-25T19:12:55.317Z",
+  "nodeRun": "20260925T191044Z-16d6497e",
+  "liveRpcCompared": true,
+  "blocksReplayed": 110,
+  "tip": {
+    "height": 110,
+    "hash": "5e65b2cdc86de06f89eeddfa5922a73863f6fcab36099edbc98f0b7b6cb91034"
+  },
+  "asset": {
+    "id": "108:1",
+    "name": "REGTESTATOMICLOT",
+    "etchTxid": "8115e249079b5ed0873f9dc9def2a426e254454a7d83f0145ac9f4ce169e4b2a",
+    "etchHeight": 108,
+    "divisibility": 0,
+    "premine": "1000000000000000001",
+    "amount": "0",
+    "cap": "0",
+    "start": null,
+    "end": null,
+    "mints": "0",
+    "burned": "0",
+    "closed": true,
+    "supply": "1000000000000000001",
+    "circulating": "1000000000000000001"
+  },
+  "buyerOutpoint": "d1cb4dc082ecf30a606b95fa6fe250ab216c6edc6dcc54a8c993233adf9c951f:1",
+  "sellerPaymentZatoshis": "100140000",
+  "buyerDebitZatoshis": "100030000",
+  "rejectionChecks": 3,
+  "rejectionFundingIsolated": true,
+  "recoveredTransactionIdentical": true,
+  "sourceSha256": {
+    "codec.mjs": "1917592d8ef140684d7e4c52dfc891c3cbf43c9b8250ce7532ed280e1d508510",
+    "ledger.mjs": "df55c150673a7aa30b7d48cbe42b139183681626d7332aaa5b96fbdd319d38ab",
+    "replay.mjs": "7345ab6a05f01d025ff1036c97ec68cc1f1bffab532e4f7ddcb24f981889fd27",
+    "verify-settlement.mjs": "5a9e84daaf8022a4570689afe0cadfecef045ec4dca6b9f2633fc7bccd0a77e3"
+  },
+  "scope": "Local regtest consensus acceptance plus independent token accounting; public fixture keys and same-host processes, not production wallet security."
+}

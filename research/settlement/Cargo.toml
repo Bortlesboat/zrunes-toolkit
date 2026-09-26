@@ -1,0 +1,22 @@
+[package]
+name = "zrunes-settlement"
+version = "0.0.0"
+edition = "2021"
+license = "MIT"
+publish = false
+
+[dependencies]
+anyhow = "1"
+hex = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+ripemd = "0.1"
+secp256k1 = "0.29"
+zcash_primitives = { version = "=0.30.0", default-features = false, features = ["std", "transparent-inputs"] }
+zcash_protocol = "=0.10.4"
+zcash_transparent = { version = "=0.10.0", features = ["transparent-inputs"] }
+zcash_script = "=0.4.3"
+ureq = { version = "2.12.1", default-features = false, features = ["json"] }
+
+[workspace]

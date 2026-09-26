@@ -1,0 +1,31 @@
+{
+  "inputs": [
+    {
+      "txid": "cf969443558a24d8eaee74a88da693e89479a93b71934558b976b4673695d06c",
+      "vout": 0,
+      "value_zat": 140000,
+      "script": "76a9145969f00f55e8e6e65550459b19940f6b43b30a4788ac"
+    },
+    {
+      "txid": "7812e89b94b69ba4a6ecde28bf9befd14e15acfa86cc7bf9f6e2d6cd7dab3b0f",
+      "vout": 2,
+      "value_zat": 312385000,
+      "script": "76a9141e3ea287c5ea24394daa072ca817859103cafc7188ac"
+    }
+  ],
+  "outputs": [
+    {
+      "value_zat": 100140000,
+      "script": "76a9145969f00f55e8e6e65550459b19940f6b43b30a4788ac"
+    },
+    {
+      "value_zat": 212355000,
+      "script": "76a9141e3ea287c5ea24394daa072ca817859103cafc7188ac"
+    },
+    {
+      "value_zat": 0,
+      "script": "6a5e05006c010001"
+    }
+  ],
+  "expiry": 500
+}

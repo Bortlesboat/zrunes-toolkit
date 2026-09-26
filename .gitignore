@@ -1,0 +1,14 @@
+node_modules/
+*.tgz
+coverage/
+*.lock.tmp
+fixtures/mainnet/sample-replay.json
+research/settlement/target/
+research/settlement/.local/
+research/settlement/evidence/*/
+!research/settlement/evidence/20260925T191044Z-16d6497e/
+*.checkpoint.json
+*.checkpoint.json.lock
+.env
+.env.*
+!.env.example

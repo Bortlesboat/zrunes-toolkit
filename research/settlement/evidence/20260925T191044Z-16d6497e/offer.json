@@ -1,0 +1,17 @@
+{
+  "inputs": [
+    {
+      "txid": "cf969443558a24d8eaee74a88da693e89479a93b71934558b976b4673695d06c",
+      "vout": 0,
+      "value_zat": 140000,
+      "script": "76a9145969f00f55e8e6e65550459b19940f6b43b30a4788ac"
+    }
+  ],
+  "outputs": [
+    {
+      "value_zat": 100140000,
+      "script": "76a9145969f00f55e8e6e65550459b19940f6b43b30a4788ac"
+    }
+  ],
+  "expiry": 500
+}

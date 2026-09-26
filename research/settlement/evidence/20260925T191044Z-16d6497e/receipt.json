@@ -1,0 +1,331 @@
+{
+  "branch": "NU6.3",
+  "buyer_outpoint": "d1cb4dc082ecf30a606b95fa6fe250ab216c6edc6dcc54a8c993233adf9c951f:1",
+  "buyer_script": "76a9141e3ea287c5ea24394daa072ca817859103cafc7188ac",
+  "confirmations": [
+    {
+      "height": 102,
+      "stage": "commitment-funding",
+      "tx_index": 1,
+      "txid": "7812e89b94b69ba4a6ecde28bf9befd14e15acfa86cc7bf9f6e2d6cd7dab3b0f"
+    },
+    {
+      "height": 108,
+      "stage": "etch",
+      "tx_index": 1,
+      "txid": "8115e249079b5ed0873f9dc9def2a426e254454a7d83f0145ac9f4ce169e4b2a"
+    },
+    {
+      "height": 109,
+      "stage": "cancellation",
+      "tx_index": 1,
+      "txid": "cf969443558a24d8eaee74a88da693e89479a93b71934558b976b4673695d06c"
+    },
+    {
+      "height": 110,
+      "stage": "sale",
+      "tx_index": 1,
+      "txid": "d1cb4dc082ecf30a606b95fa6fe250ab216c6edc6dcc54a8c993233adf9c951f"
+    }
+  ],
+  "export": {
+    "blocks": "blocks.json",
+    "from_height": 1,
+    "raw_transactions": "raw-transactions.json",
+    "through_height": 110
+  },
+  "fee_zat": 30000,
+  "genesis": "029f11d80ef9765602235e1bc9727e3eb6ba20839319f761fee920d63401e327",
+  "name": "REGTESTATOMICLOT",
+  "network": "regtest",
+  "price_zat": 100000000,
+  "process_commands": [
+    {
+      "command": [
+        "fixture-sign",
+        "34209",
+        "funding",
+        "funding-fixture.json",
+        "funding-fixture.hex"
+      ],
+      "stderr": "",
+      "stdout": "",
+      "success": true
+    },
+    {
+      "command": [
+        "fixture-sign",
+        "34209",
+        "etch",
+        "etch-fixture.json",
+        "etch-fixture.hex"
+      ],
+      "stderr": "",
+      "stdout": "",
+      "success": true
+    },
+    {
+      "command": [
+        "seller-sign",
+        "34209",
+        "stale-policy.json",
+        "stale-offer.json",
+        "stale-signature.json"
+      ],
+      "stderr": "",
+      "stdout": "",
+      "success": true
+    },
+    {
+      "command": [
+        "buyer-sign",
+        "34209",
+        "stale-policy.json",
+        "stale-proposal.json",
+        "stale-signature.json",
+        "stale-sale.hex"
+      ],
+      "stderr": "",
+      "stdout": "",
+      "success": true
+    },
+    {
+      "command": [
+        "fixture-sign",
+        "34209",
+        "cancel",
+        "cancel-fixture.json",
+        "cancel-fixture.hex"
+      ],
+      "stderr": "",
+      "stdout": "",
+      "success": true
+    },
+    {
+      "command": [
+        "buyer-sign",
+        "34209",
+        "stale-policy.json",
+        "stale-proposal.json",
+        "stale-signature.json",
+        "must-not-exist.hex"
+      ],
+      "stderr": "Error: stale or spent outpoint\n",
+      "stdout": "",
+      "success": false
+    },
+    {
+      "command": [
+        "seller-sign",
+        "34209",
+        "seller-policy.json",
+        "offer.json",
+        "seller-signature.json"
+      ],
+      "stderr": "",
+      "stdout": "",
+      "success": true
+    },
+    {
+      "command": [
+        "buyer-sign",
+        "34209",
+        "buyer-policy.json",
+        "altered-proposal.json",
+        "seller-signature.json",
+        "must-not-exist.hex"
+      ],
+      "stderr": "Error: buyer payment/change/full-lot allocation\n",
+      "stdout": "",
+      "success": false
+    },
+    {
+      "command": [
+        "fixture-sign",
+        "34209",
+        "attack",
+        "attack-fixture.json",
+        "attack-fixture.hex"
+      ],
+      "stderr": "",
+      "stdout": "",
+      "success": true
+    },
+    {
+      "command": [
+        "buyer-sign",
+        "34209",
+        "buyer-policy.json",
+        "proposal.json",
+        "seller-signature.json",
+        "sale.hex"
+      ],
+      "stderr": "",
+      "stdout": "",
+      "success": true
+    },
+    {
+      "command": [
+        "buyer-sign",
+        "34209",
+        "buyer-policy.json",
+        "proposal.json",
+        "seller-signature.json",
+        "recovered-sale.hex"
+      ],
+      "stderr": "",
+      "stdout": "",
+      "success": true
+    },
+    {
+      "command": [
+        "buyer-sign",
+        "34209",
+        "competing-policy.json",
+        "competing-proposal.json",
+        "seller-signature.json",
+        "competing-sale.hex"
+      ],
+      "stderr": "",
+      "stdout": "",
+      "success": true
+    },
+    {
+      "command": [
+        "recover",
+        "34209",
+        "sale.hex",
+        "recovery.json"
+      ],
+      "stderr": "",
+      "stdout": "",
+      "success": true
+    }
+  ],
+  "quantity": "1000000000000000001",
+  "recovery": {
+    "confirmed": true,
+    "height": 110,
+    "raw_match": true,
+    "tx_index": 1,
+    "txid": "d1cb4dc082ecf30a606b95fa6fe250ab216c6edc6dcc54a8c993233adf9c951f"
+  },
+  "rejection_assets": {
+    "cancelled_offer": {
+      "coin": {
+        "script": "76a9145969f00f55e8e6e65550459b19940f6b43b30a4788ac",
+        "txid": "8115e249079b5ed0873f9dc9def2a426e254454a7d83f0145ac9f4ce169e4b2a",
+        "value_zat": 170000,
+        "vout": 0
+      },
+      "gettxout": null
+    },
+    "competing_sale": {
+      "coin": {
+        "script": "76a9145969f00f55e8e6e65550459b19940f6b43b30a4788ac",
+        "txid": "cf969443558a24d8eaee74a88da693e89479a93b71934558b976b4673695d06c",
+        "value_zat": 140000,
+        "vout": 0
+      },
+      "gettxout": null
+    }
+  },
+  "rejection_funding": {
+    "after": {
+      "bestblock": "5e65b2cdc86de06f89eeddfa5922a73863f6fcab36099edbc98f0b7b6cb91034",
+      "coinbase": false,
+      "confirmations": 9,
+      "scriptPubKey": {
+        "addresses": [
+          "tmCUGdsgK3xXbixYc2eExAnKRmsQmM4kRHV"
+        ],
+        "asm": "OP_DUP OP_HASH160 1e3ea287c5ea24394daa072ca817859103cafc71 OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a9141e3ea287c5ea24394daa072ca817859103cafc7188ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash"
+      },
+      "value": 3.12385,
+      "version": 5
+    },
+    "before": {
+      "bestblock": "5e65b2cdc86de06f89eeddfa5922a73863f6fcab36099edbc98f0b7b6cb91034",
+      "coinbase": false,
+      "confirmations": 9,
+      "scriptPubKey": {
+        "addresses": [
+          "tmCUGdsgK3xXbixYc2eExAnKRmsQmM4kRHV"
+        ],
+        "asm": "OP_DUP OP_HASH160 1e3ea287c5ea24394daa072ca817859103cafc71 OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a9141e3ea287c5ea24394daa072ca817859103cafc7188ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash"
+      },
+      "value": 3.12385,
+      "version": 5
+    },
+    "coin": {
+      "script": "76a9141e3ea287c5ea24394daa072ca817859103cafc7188ac",
+      "txid": "7812e89b94b69ba4a6ecde28bf9befd14e15acfa86cc7bf9f6e2d6cd7dab3b0f",
+      "value_zat": 312385000,
+      "vout": 2
+    }
+  },
+  "rejections": [
+    {
+      "check": "altered-payment-node-rejection",
+      "rpc_response": {
+        "error": {
+          "code": -25,
+          "message": "failed to validate tx: WtxId(\"private\"), error: transaction did not pass consensus validation: could not convert an asynchronous verification error: downcast to known transaction error type failed, original error: ScriptInvalid"
+        },
+        "id": 1,
+        "jsonrpc": "2.0"
+      }
+    },
+    {
+      "check": "cancelled-offer-node-rejection",
+      "rpc_response": {
+        "error": {
+          "code": -25,
+          "message": "failed to validate tx: WtxId(\"private\"), error: transaction did not pass consensus validation: could not find transparent input UTXO in the best chain or mempool"
+        },
+        "id": 1,
+        "jsonrpc": "2.0"
+      }
+    },
+    {
+      "check": "competing-sale-node-rejection",
+      "rpc_response": {
+        "error": {
+          "code": -25,
+          "message": "failed to validate tx: WtxId(\"private\"), error: transaction did not pass consensus validation: could not find transparent input UTXO in the best chain or mempool"
+        },
+        "id": 1,
+        "jsonrpc": "2.0"
+      }
+    }
+  ],
+  "rune_id": "108:1",
+  "schema": "zrunes-transparent-settlement-regtest-v1",
+  "scope": "settlement primitive; not ZMarket envelope interoperability",
+  "seller_payment_script": "76a9145969f00f55e8e6e65550459b19940f6b43b30a4788ac",
+  "seller_payment_zat": 100140000,
+  "tx_version": 5,
+  "run_at_utc": "2026-09-25T19:12:21.6878411Z",
+  "scenario": "transparent-full-lot-sale",
+  "node_release": {
+    "archive_sha256": "e395623bd7dcb56024c14eecd622f6d747f4df2bb08363db1448406d7bd1811d",
+    "archive_url": "https://github.com/ZcashFoundation/zebra/releases/download/v6.4.0/zebrad-6.4.0-x86_64-unknown-linux-gnu.tar.gz",
+    "version": "6.4.0"
+  },
+  "runtime": {
+    "rust": "rustc 1.97.0 (2d8144b78 2026-07-07)",
+    "operating_system": "Windows with isolated WSL Linux node"
+  },
+  "source_files_sha256": {
+    "Cargo.toml": "4090096572a4edb05a8a4c4c2e48eb502c53c3a202ff756825c6fb8131e4a76d",
+    "Cargo.lock": "b81f083f4fdc4346a5a1901087d9f9ebbd4019e6cd4598c501a11408d2d9e1ed",
+    "src/main.rs": "08237961bb41d98c9284ff27fac32be3635eb69dc8563398318cd6f26510ba7e",
+    "run-regtest.ps1": "0dee2ba00e70f3457c8c075fad99a1854e840bcef6ffe726b7c40aa984faac04"
+  }
+}

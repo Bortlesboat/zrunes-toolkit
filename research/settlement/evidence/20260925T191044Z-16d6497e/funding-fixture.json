@@ -1,0 +1,25 @@
+{
+  "inputs": [
+    {
+      "txid": "401ee29236ca87dc2cfe0b3f032c53d79865df9ab006b30757ddc212e8d65b48",
+      "vout": 0,
+      "value_zat": 625000000,
+      "script": "76a914ebc01a33339dc2f585fb0481a9dffa0d02ce3a2588ac"
+    }
+  ],
+  "outputs": [
+    {
+      "value_zat": 200000,
+      "script": "a9149bb1f6c0f633eae7f388026b6ddec26dc374551a87"
+    },
+    {
+      "value_zat": 312385000,
+      "script": "76a9141e3ea287c5ea24394daa072ca817859103cafc7188ac"
+    },
+    {
+      "value_zat": 312385000,
+      "script": "76a9141e3ea287c5ea24394daa072ca817859103cafc7188ac"
+    }
+  ],
+  "expiry": 500
+}

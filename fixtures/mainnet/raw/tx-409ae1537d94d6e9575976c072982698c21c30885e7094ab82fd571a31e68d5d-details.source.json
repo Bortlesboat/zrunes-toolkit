@@ -1,0 +1,14 @@
+{
+  "url": "https://api.mainnet.cipherscan.app/api/tx/409ae1537d94d6e9575976c072982698c21c30885e7094ab82fd571a31e68d5d",
+  "observedAt": "2026-09-25T18:27:18.086398+00:00",
+  "status": 200,
+  "sha256": "95c0735cfb4efcfca4e510a5d3dbf46c8e0b5dbfa47c69cde9d2c2bd033effa1",
+  "bytes": 1564,
+  "elapsedSeconds": 0.469,
+  "rateLimitHeaders": [
+    "Ratelimit-Limit: 600",
+    "Ratelimit-Policy: 600;w=60",
+    "Ratelimit-Remaining: 577",
+    "Ratelimit-Reset: 48"
+  ]
+}
