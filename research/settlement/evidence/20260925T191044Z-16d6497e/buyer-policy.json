@@ -1,0 +1,24 @@
+{
+  "asset": {
+    "txid": "cf969443558a24d8eaee74a88da693e89479a93b71934558b976b4673695d06c",
+    "vout": 0,
+    "value_zat": 140000,
+    "script": "76a9145969f00f55e8e6e65550459b19940f6b43b30a4788ac"
+  },
+  "funding": {
+    "txid": "7812e89b94b69ba4a6ecde28bf9befd14e15acfa86cc7bf9f6e2d6cd7dab3b0f",
+    "vout": 1,
+    "value_zat": 312385000,
+    "script": "76a9141e3ea287c5ea24394daa072ca817859103cafc7188ac"
+  },
+  "etch_txid": "8115e249079b5ed0873f9dc9def2a426e254454a7d83f0145ac9f4ce169e4b2a",
+  "ancestors": [
+    "cf969443558a24d8eaee74a88da693e89479a93b71934558b976b4673695d06c"
+  ],
+  "price_zat": 100000000,
+  "fee_zat": 30000,
+  "quantity": "1000000000000000001",
+  "rune_height": 108,
+  "rune_index": 1,
+  "expiry": 500
+}

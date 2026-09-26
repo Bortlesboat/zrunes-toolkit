@@ -1,0 +1,26 @@
+{
+  "name": "@bortlesboat/zrunes-toolkit",
+  "version": "0.1.0",
+  "description": "Experimental ZRunes decoding and ledger replay for Zcash wallet and product developers",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "exports": {
+    ".": "./index.mjs",
+    "./codec": "./codec.mjs",
+    "./ledger": "./ledger.mjs",
+    "./replay": "./replay.mjs"
+  },
+  "files": ["index.mjs", "codec.mjs", "ledger.mjs", "replay.mjs", "README.md", "LICENSE", "NOTICE.md"],
+  "scripts": {
+    "test": "node --test *.test.mjs",
+    "example": "node examples/decode.mjs",
+    "verify:sample": "node fixtures/mainnet/verify-sample.mjs",
+    "verify:settlement": "node verify-settlement.mjs research/settlement/evidence/20260925T191044Z-16d6497e"
+  },
+  "repository": { "type": "git", "url": "https://github.com/Bortlesboat/zrunes-toolkit.git" },
+  "bugs": { "url": "https://github.com/Bortlesboat/zrunes-toolkit/issues" },
+  "homepage": "https://github.com/Bortlesboat/zrunes-toolkit#readme",
+  "keywords": ["zcash", "zrunes", "indexer", "metaprotocol", "wallet"]
+}

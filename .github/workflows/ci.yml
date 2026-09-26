@@ -1,0 +1,70 @@
+name: Verify toolkit
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  javascript:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm test
+      - run: npm run example
+      - run: node examples/replay-sample.mjs
+      - run: npm run verify:sample
+      - run: npm run verify:settlement
+      - name: Verify packed ESM imports
+        shell: pwsh
+        run: |
+          $packed = npm pack --json --pack-destination $env:RUNNER_TEMP
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          $tarball = Join-Path $env:RUNNER_TEMP (($packed | ConvertFrom-Json)[0].filename)
+          $consumer = Join-Path $env:RUNNER_TEMP 'packed-consumer'
+          New-Item -ItemType Directory -Path $consumer | Out-Null
+          Set-Location $consumer
+          '{"private":true,"type":"module"}' | Set-Content package.json
+          npm install --ignore-scripts --no-audit --no-fund $tarball
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          @'
+          import assert from 'node:assert/strict';
+          import * as toolkit from '@bortlesboat/zrunes-toolkit';
+          import { decode, encode } from '@bortlesboat/zrunes-toolkit/codec';
+          import { Ledger } from '@bortlesboat/zrunes-toolkit/ledger';
+          import { replay } from '@bortlesboat/zrunes-toolkit/replay';
+          assert.equal(toolkit.decode, decode);
+          assert.equal(toolkit.encode, encode);
+          assert.equal(toolkit.Ledger, Ledger);
+          assert.equal(toolkit.replay, replay);
+          const fields = new Map([[2n, [1n]], [4n, [18278n]], [12n, [9007199254740993n]]]);
+          const decoded = decode([{ valueZat: '0', scriptPubKey: { hex: encode(fields) } }]);
+          assert.equal(decoded.kind, 'valid');
+          assert.deepEqual(decoded.fields, fields);
+          assert.deepEqual(decoded.ambiguity, []);
+          '@ | Set-Content smoke.mjs
+          node smoke.mjs
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+  rust:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: research/settlement
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - run: rustup toolchain install 1.97.0 --profile minimal --component clippy,rustfmt
+      - run: cargo +1.97.0 fmt --check
+      - run: cargo +1.97.0 test --locked
+      - run: cargo +1.97.0 clippy --locked --all-targets -- -D warnings

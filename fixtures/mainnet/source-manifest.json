@@ -1,0 +1,2340 @@
+{
+  "generatedAt": "2026-09-25T18:33:09.282048+00:00",
+  "responses": [
+    {
+      "file": "raw/address-t1d5LSxUivr3Y5CmW6cj85KoCrbCWpBKrsG-p1.json",
+      "url": "https://api.mainnet.cipherscan.app/api/address/t1d5LSxUivr3Y5CmW6cj85KoCrbCWpBKrsG?page=1&limit=100",
+      "observedAt": "2026-09-25T18:26:25.074460+00:00",
+      "status": 200,
+      "sha256": "878e3f8bd7829c185fef15fb8ee43bad012b8fdf6de60907b54a07dad1dca31e",
+      "bytes": 843,
+      "elapsedSeconds": 2.781,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 596",
+        "Ratelimit-Reset: 40"
+      ]
+    },
+    {
+      "file": "raw/address-t1Jxr49mdm5nKwWUuSKNNTofyqn7WiFMnLi-p1.json",
+      "url": "https://api.mainnet.cipherscan.app/api/address/t1Jxr49mdm5nKwWUuSKNNTofyqn7WiFMnLi?page=1&limit=100",
+      "observedAt": "2026-09-25T18:26:25.813109+00:00",
+      "status": 200,
+      "sha256": "acb8b185f4d4abeebb429d6592379d1edbef9808145ad64f3de73030d953a070",
+      "bytes": 16480,
+      "elapsedSeconds": 0.766,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 594",
+        "Ratelimit-Reset: 39"
+      ]
+    },
+    {
+      "file": "raw/address-t1NXNPz74sJv1UGwQs1X3SUsyzLYeDraRTC-p1.json",
+      "url": "https://api.mainnet.cipherscan.app/api/address/t1NXNPz74sJv1UGwQs1X3SUsyzLYeDraRTC?page=1&limit=100",
+      "observedAt": "2026-09-25T18:26:25.060320+00:00",
+      "status": 200,
+      "sha256": "f71fee84e03a8959332dc6a837cfeacc69eb3989666042337910dbbb0d231cf3",
+      "bytes": 2938,
+      "elapsedSeconds": 2.765,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 597",
+        "Ratelimit-Reset: 40"
+      ]
+    },
+    {
+      "file": "raw/address-t1ZyfuN9JuwH6xVmNYJb8iwFpcMWrHGjS6t-p1.json",
+      "url": "https://api.mainnet.cipherscan.app/api/address/t1ZyfuN9JuwH6xVmNYJb8iwFpcMWrHGjS6t?page=1&limit=100",
+      "observedAt": "2026-09-25T18:24:26.967291+00:00",
+      "status": 200,
+      "sha256": "49771fabe1519930df9d54ac2cf868375206a93c62756de8d5f952ffdf406e22",
+      "bytes": 8176,
+      "elapsedSeconds": 0.719,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 554",
+        "Ratelimit-Reset: 22"
+      ]
+    },
+    {
+      "file": "raw/address-t3PbsE5x4tPksezMZ4Ey8kMQgxZBp4jJFFr-p1.json",
+      "url": "https://api.mainnet.cipherscan.app/api/address/t3PbsE5x4tPksezMZ4Ey8kMQgxZBp4jJFFr?page=1&limit=100",
+      "observedAt": "2026-09-25T18:26:25.044600+00:00",
+      "status": 200,
+      "sha256": "80c6c94d86d5f1c3164eb76b4e7bb8e7223b539b1ec83eeee53778db67314f72",
+      "bytes": 3631,
+      "elapsedSeconds": 2.75,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 595",
+        "Ratelimit-Reset: 40"
+      ]
+    },
+    {
+      "file": "raw/block-3488571.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488571",
+      "observedAt": "2026-09-25T18:27:02.506950+00:00",
+      "status": 200,
+      "sha256": "9f08ee75b1e272f1c31646f39e29fe51103755b50efb97a071185015d14c838d",
+      "bytes": 8405,
+      "elapsedSeconds": 0.484,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 534",
+        "Ratelimit-Reset: 2"
+      ]
+    },
+    {
+      "file": "raw/block-3488574.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488574",
+      "observedAt": "2026-09-25T18:23:53.347259+00:00",
+      "status": 200,
+      "sha256": "9d74af90c09f3ace2a05aba6653e1681a0337fe3831f09170051242b5f55c530",
+      "bytes": 50805,
+      "elapsedSeconds": 0.828,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 574",
+        "Ratelimit-Reset: 55"
+      ]
+    },
+    {
+      "file": "raw/block-3488580.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488580",
+      "observedAt": "2026-09-25T18:27:02.832535+00:00",
+      "status": 200,
+      "sha256": "b676010a23d4fbb4b7db90c5ab36ab74a4ccac0b98c02f7b9dbdd8a735e9cacd",
+      "bytes": 46331,
+      "elapsedSeconds": 0.813,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 532",
+        "Ratelimit-Reset: 2"
+      ]
+    },
+    {
+      "file": "raw/block-3488585.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488585",
+      "observedAt": "2026-09-25T18:23:53.247855+00:00",
+      "status": 200,
+      "sha256": "79eba190d0e3c94fb5262547cb4e052c60d5ad8cc2352aae2abbccdad735a3bc",
+      "bytes": 69801,
+      "elapsedSeconds": 0.719,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 576",
+        "Ratelimit-Reset: 56"
+      ]
+    },
+    {
+      "file": "raw/block-3488590.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488590",
+      "observedAt": "2026-09-25T18:23:53.258266+00:00",
+      "status": 200,
+      "sha256": "6cb6edb1b9ac194e7443dd7b634cde3c2b5f6dd2c99c9da8eeac028092094ed9",
+      "bytes": 55910,
+      "elapsedSeconds": 0.734,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 575",
+        "Ratelimit-Reset: 56"
+      ]
+    },
+    {
+      "file": "raw/block-3488724.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488724",
+      "observedAt": "2026-09-25T18:23:54.043490+00:00",
+      "status": 200,
+      "sha256": "419278b6b3a672b5a70dab8c02d95d1979c2cec04f6b8e62e7ec5b60e06067b5",
+      "bytes": 35343,
+      "elapsedSeconds": 0.782,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 572",
+        "Ratelimit-Reset: 55"
+      ]
+    },
+    {
+      "file": "raw/block-3488753.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488753",
+      "observedAt": "2026-09-25T18:27:02.649366+00:00",
+      "status": 200,
+      "sha256": "468d82eddb953fb07502132c2145e096920671811630367e09df2e09ccf50127",
+      "bytes": 29885,
+      "elapsedSeconds": 0.625,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 533",
+        "Ratelimit-Reset: 2"
+      ]
+    },
+    {
+      "file": "raw/block-3488756.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488756",
+      "observedAt": "2026-09-25T18:23:54.175282+00:00",
+      "status": 200,
+      "sha256": "4cd597522f54d9434d4883fdcd9e9f2c358941e369f2d42c0607ec9e31ca3f4b",
+      "bytes": 65956,
+      "elapsedSeconds": 0.922,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 573",
+        "Ratelimit-Reset: 55"
+      ]
+    },
+    {
+      "file": "raw/block-3488782.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488782",
+      "observedAt": "2026-09-25T18:23:54.035980+00:00",
+      "status": 200,
+      "sha256": "d89fe0ce20fe074dac662c38e597e98e64d88f942e729271e7778b33e1b482a5",
+      "bytes": 24742,
+      "elapsedSeconds": 0.688,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 571",
+        "Ratelimit-Reset: 55"
+      ]
+    },
+    {
+      "file": "raw/block-3488785.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488785",
+      "observedAt": "2026-09-25T18:23:54.898246+00:00",
+      "status": 200,
+      "sha256": "5bf4575d321362ad59b24c6affc814914d5adb6629218b63554b424b0fe0450f",
+      "bytes": 44036,
+      "elapsedSeconds": 0.859,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 569",
+        "Ratelimit-Reset: 54"
+      ]
+    },
+    {
+      "file": "raw/block-3488792.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488792",
+      "observedAt": "2026-09-25T18:23:54.812496+00:00",
+      "status": 200,
+      "sha256": "0e054036e01a5e60e7586373adf887267156694dc253610c4d1b94fe441b8c92",
+      "bytes": 93362,
+      "elapsedSeconds": 0.766,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 570",
+        "Ratelimit-Reset: 54"
+      ]
+    },
+    {
+      "file": "raw/block-3488829.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488829",
+      "observedAt": "2026-09-25T18:27:03.294242+00:00",
+      "status": 200,
+      "sha256": "84dd2498c4d5d9cffaf8a6bbfad4585687730cd6bbaa2fd5fe03b724ee95d072",
+      "bytes": 73308,
+      "elapsedSeconds": 0.782,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 531",
+        "Ratelimit-Reset: 2"
+      ]
+    },
+    {
+      "file": "raw/block-3488979.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488979",
+      "observedAt": "2026-09-25T18:27:03.334924+00:00",
+      "status": 200,
+      "sha256": "5e3d2979083c8f384aeb12d83c880ddf894b92bf3bfa105058ce6f6868d1f955",
+      "bytes": 36589,
+      "elapsedSeconds": 0.688,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 530",
+        "Ratelimit-Reset: 1"
+      ]
+    },
+    {
+      "file": "raw/block-3488984.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3488984",
+      "observedAt": "2026-09-25T18:23:54.945304+00:00",
+      "status": 200,
+      "sha256": "125d8b86d5c9845f6caf1562a4198e411fb022c16f761bc1cac3be936292e828",
+      "bytes": 48284,
+      "elapsedSeconds": 0.766,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 568",
+        "Ratelimit-Reset: 54"
+      ]
+    },
+    {
+      "file": "raw/block-3489000.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3489000",
+      "observedAt": "2026-09-25T18:27:03.595434+00:00",
+      "status": 200,
+      "sha256": "3d164ca9f0504b868f152e98cae39b1dd5926929a198ffef8eb0e6a5f34fd9d6",
+      "bytes": 79917,
+      "elapsedSeconds": 0.765,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 529",
+        "Ratelimit-Reset: 1"
+      ]
+    },
+    {
+      "file": "raw/block-3489003.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3489003",
+      "observedAt": "2026-09-25T18:27:04.041751+00:00",
+      "status": 200,
+      "sha256": "4d6ee6246040f45efeeeb17acbc0ddf1dcd829e1074560dbefae418ad2c1dfb1",
+      "bytes": 56180,
+      "elapsedSeconds": 0.735,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 528",
+        "Ratelimit-Reset: 1"
+      ]
+    },
+    {
+      "file": "raw/block-3489854.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3489854",
+      "observedAt": "2026-09-25T18:27:03.951466+00:00",
+      "status": 200,
+      "sha256": "fefbd98d24001c10d2ccb55c62b6d56c8815353ad4213651a52efbe0129f823d",
+      "bytes": 30510,
+      "elapsedSeconds": 0.625,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 527",
+        "Ratelimit-Reset: 1"
+      ]
+    },
+    {
+      "file": "raw/block-3490052.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3490052",
+      "observedAt": "2026-09-25T18:27:05.435256+00:00",
+      "status": 200,
+      "sha256": "3ba9e61114e27b53b52fbdf2a1ceaea98bbdc5fb04ad5901d32fc340b88084d3",
+      "bytes": 59979,
+      "elapsedSeconds": 1.828,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 526",
+        "Ratelimit-Reset: 1"
+      ]
+    },
+    {
+      "file": "raw/block-3490992.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3490992",
+      "observedAt": "2026-09-25T18:27:06.013265+00:00",
+      "status": 200,
+      "sha256": "a3f3965c8795a72713816c24454178c14a082528089a061d3636f064e3684c0d",
+      "bytes": 166504,
+      "elapsedSeconds": 2.046,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 598",
+        "Ratelimit-Reset: 60"
+      ]
+    },
+    {
+      "file": "raw/block-3492165.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3492165",
+      "observedAt": "2026-09-25T18:27:05.691699+00:00",
+      "status": 200,
+      "sha256": "c98aab56681fbcafdfa7af5a4544783c73e59eee75dc55400afb5426e344d400",
+      "bytes": 13597,
+      "elapsedSeconds": 1.656,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 599",
+        "Ratelimit-Reset: 60"
+      ]
+    },
+    {
+      "file": "raw/block-3493048.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3493048",
+      "observedAt": "2026-09-25T18:27:06.311151+00:00",
+      "status": 200,
+      "sha256": "3653f64bfafc05c3b07230a1752cb84a7da7e78f77791ab1144e0ee821456369",
+      "bytes": 53929,
+      "elapsedSeconds": 0.875,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 597",
+        "Ratelimit-Reset: 60"
+      ]
+    },
+    {
+      "file": "raw/block-3493049.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3493049",
+      "observedAt": "2026-09-25T18:23:55.452270+00:00",
+      "status": 200,
+      "sha256": "689d81df95c8c5134d6210891b0cd5ad37461a72ee3649812154cfd1c04bc3f4",
+      "bytes": 15326,
+      "elapsedSeconds": 0.641,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 567",
+        "Ratelimit-Reset: 53"
+      ]
+    },
+    {
+      "file": "raw/block-3493055.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3493055",
+      "observedAt": "2026-09-25T18:23:55.540608+00:00",
+      "status": 200,
+      "sha256": "7fcf2dd8b644f41c96b8e5013c71d5f7b5eea4c9cd4303be9bca36469117a4b3",
+      "bytes": 15431,
+      "elapsedSeconds": 0.641,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 566",
+        "Ratelimit-Reset: 53"
+      ]
+    },
+    {
+      "file": "raw/block-3493307.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3493307",
+      "observedAt": "2026-09-25T18:27:06.305074+00:00",
+      "status": 200,
+      "sha256": "cb5f670cd6d3c4347d12baa20c206503f5fb37ea973cf20b25c7c0198ac84cbc",
+      "bytes": 21290,
+      "elapsedSeconds": 0.609,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 596",
+        "Ratelimit-Reset: 60"
+      ]
+    },
+    {
+      "file": "raw/block-3493475.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3493475",
+      "observedAt": "2026-09-25T18:27:06.986640+00:00",
+      "status": 200,
+      "sha256": "b4dd3d27567173e59442baea0256eeb091a573098b712165948e75af804adac1",
+      "bytes": 188744,
+      "elapsedSeconds": 0.969,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 595",
+        "Ratelimit-Reset: 59"
+      ]
+    },
+    {
+      "file": "raw/block-3493862.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3493862",
+      "observedAt": "2026-09-25T18:27:06.911604+00:00",
+      "status": 200,
+      "sha256": "bbdfab7b0162254b37d07ebd8d91eb3c038367d931de2d943d60e64fe2e4eb05",
+      "bytes": 36462,
+      "elapsedSeconds": 0.61,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 594",
+        "Ratelimit-Reset: 59"
+      ]
+    },
+    {
+      "file": "raw/block-3494440.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3494440",
+      "observedAt": "2026-09-25T18:27:06.933884+00:00",
+      "status": 200,
+      "sha256": "83187ad0a664432f5066a70fa0e5cbccd783296369c20960c1257304987ea1a8",
+      "bytes": 32167,
+      "elapsedSeconds": 0.609,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 593",
+        "Ratelimit-Reset: 59"
+      ]
+    },
+    {
+      "file": "raw/block-3494442.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3494442",
+      "observedAt": "2026-09-25T18:27:07.575602+00:00",
+      "status": 200,
+      "sha256": "ad11990545ff156fac84786278723d80ac2f8e61137d7fcc93a3cef08b7f7b0f",
+      "bytes": 31136,
+      "elapsedSeconds": 0.656,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 592",
+        "Ratelimit-Reset: 59"
+      ]
+    },
+    {
+      "file": "raw/block-3494608.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3494608",
+      "observedAt": "2026-09-25T18:27:07.790117+00:00",
+      "status": 200,
+      "sha256": "94c637ce1d8a85dd8b31d13600ef9364d0040ed93904bbfdeb350cd33d52403c",
+      "bytes": 70230,
+      "elapsedSeconds": 0.86,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 591",
+        "Ratelimit-Reset: 58"
+      ]
+    },
+    {
+      "file": "raw/block-3494636.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3494636",
+      "observedAt": "2026-09-25T18:27:07.608572+00:00",
+      "status": 200,
+      "sha256": "25331e71df1fe201754383c232d0cf6f3e7e1c0191cc09f211a80dec3997c00d",
+      "bytes": 22729,
+      "elapsedSeconds": 0.625,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 590",
+        "Ratelimit-Reset: 58"
+      ]
+    },
+    {
+      "file": "raw/block-3494639.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3494639",
+      "observedAt": "2026-09-25T18:27:08.243534+00:00",
+      "status": 200,
+      "sha256": "750b60818273e9e713750188b352a622163375ca6ed1023c77b1ec32722ed389",
+      "bytes": 28187,
+      "elapsedSeconds": 0.656,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 588",
+        "Ratelimit-Reset: 58"
+      ]
+    },
+    {
+      "file": "raw/block-3494647.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3494647",
+      "observedAt": "2026-09-25T18:27:08.362131+00:00",
+      "status": 200,
+      "sha256": "c224b14800eb206f8335dfc88cfe70be97922600e70109b2041e21d9fcce49ff",
+      "bytes": 53454,
+      "elapsedSeconds": 0.75,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 589",
+        "Ratelimit-Reset: 58"
+      ]
+    },
+    {
+      "file": "raw/block-3494651.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3494651",
+      "observedAt": "2026-09-25T18:23:55.593723+00:00",
+      "status": 200,
+      "sha256": "987d8bb59d7cb943beae40f7d8fcdab4367afb79989ee23a81c9e839eef21b11",
+      "bytes": 17224,
+      "elapsedSeconds": 0.656,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 565",
+        "Ratelimit-Reset: 53"
+      ]
+    },
+    {
+      "file": "raw/block-3494657.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3494657",
+      "observedAt": "2026-09-25T18:23:56.141283+00:00",
+      "status": 200,
+      "sha256": "9d325f9e6d3a75f06a1bde4887177f8792b202b342ab758a81b0f345285903b1",
+      "bytes": 40563,
+      "elapsedSeconds": 0.687,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 564",
+        "Ratelimit-Reset: 53"
+      ]
+    },
+    {
+      "file": "raw/block-3494800.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3494800",
+      "observedAt": "2026-09-25T18:23:56.070540+00:00",
+      "status": 200,
+      "sha256": "c6096c56415bb682536116d7b6d0b34c783ade79b4dd7e07d08c39603b6882af",
+      "bytes": 9633,
+      "elapsedSeconds": 0.531,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 563",
+        "Ratelimit-Reset: 52"
+      ]
+    },
+    {
+      "file": "raw/block-3495103.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495103",
+      "observedAt": "2026-09-25T18:27:08.394291+00:00",
+      "status": 200,
+      "sha256": "dd03d33582369ab56f5c7950d135af88e2e70eff7bf32c2900037955794079b1",
+      "bytes": 35622,
+      "elapsedSeconds": 0.594,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 587",
+        "Ratelimit-Reset: 58"
+      ]
+    },
+    {
+      "file": "raw/block-3495128.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495128",
+      "observedAt": "2026-09-25T18:27:08.991162+00:00",
+      "status": 200,
+      "sha256": "ec6d3681c0161a07c9d741031ee481f008af34e07e069458e2862679c6fc20f1",
+      "bytes": 47878,
+      "elapsedSeconds": 0.75,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 586",
+        "Ratelimit-Reset: 57"
+      ]
+    },
+    {
+      "file": "raw/block-3495137.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495137",
+      "observedAt": "2026-09-25T18:23:56.145309+00:00",
+      "status": 200,
+      "sha256": "6f4ad80f130b7fda7135873f41340fbceb70f357e82cd501683699a302e66c90",
+      "bytes": 12142,
+      "elapsedSeconds": 0.547,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 562",
+        "Ratelimit-Reset: 52"
+      ]
+    },
+    {
+      "file": "raw/block-3495145.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495145",
+      "observedAt": "2026-09-25T18:23:56.541483+00:00",
+      "status": 200,
+      "sha256": "283da393f1c951d68a3c6e3d6a2783df50c7f837be2c0a1baf5b70d837f56a70",
+      "bytes": 11013,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 561",
+        "Ratelimit-Reset: 52"
+      ]
+    },
+    {
+      "file": "raw/block-3495217.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495217",
+      "observedAt": "2026-09-25T18:27:08.997950+00:00",
+      "status": 200,
+      "sha256": "ada28419cbfcf299cf8eccbcfce3b1a1b73936da6fb7a78ddbd1cc558bc30ef8",
+      "bytes": 15591,
+      "elapsedSeconds": 0.64,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 585",
+        "Ratelimit-Reset: 57"
+      ]
+    },
+    {
+      "file": "raw/block-3495219.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495219",
+      "observedAt": "2026-09-25T18:23:56.776773+00:00",
+      "status": 200,
+      "sha256": "3738601234a9eccd7db6f28f8b7a2feedeb64198386587499f58d09e863688a7",
+      "bytes": 17749,
+      "elapsedSeconds": 0.625,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 559",
+        "Ratelimit-Reset: 52"
+      ]
+    },
+    {
+      "file": "raw/block-3495221.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495221",
+      "observedAt": "2026-09-25T18:27:08.993161+00:00",
+      "status": 200,
+      "sha256": "6b9107aeefb5a2726e6014d86f50365965991f9594e7a863d10542f50ec5e819",
+      "bytes": 19638,
+      "elapsedSeconds": 0.594,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 584",
+        "Ratelimit-Reset: 57"
+      ]
+    },
+    {
+      "file": "raw/block-3495223.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495223",
+      "observedAt": "2026-09-25T18:23:56.743543+00:00",
+      "status": 200,
+      "sha256": "a4cc1cba7b31b8668c7e8f22687e23acbb7c171baf9f486c3289dbebaafee427",
+      "bytes": 15937,
+      "elapsedSeconds": 0.594,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 560",
+        "Ratelimit-Reset: 52"
+      ]
+    },
+    {
+      "file": "raw/block-3495225.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495225",
+      "observedAt": "2026-09-25T18:23:57.008553+00:00",
+      "status": 200,
+      "sha256": "c0837bd98bb87e3a39dca0bf05496482b7bec3bf19dcce3bdd5c2221d9f4fd7a",
+      "bytes": 6118,
+      "elapsedSeconds": 0.468,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 558",
+        "Ratelimit-Reset: 51"
+      ]
+    },
+    {
+      "file": "raw/block-3495230.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495230",
+      "observedAt": "2026-09-25T18:23:57.342059+00:00",
+      "status": 200,
+      "sha256": "4443f4289922a0f3b11f6a7a9909e394c6c449ac718dd4e908b6f6d826298c0a",
+      "bytes": 16657,
+      "elapsedSeconds": 0.609,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 557",
+        "Ratelimit-Reset: 51"
+      ]
+    },
+    {
+      "file": "raw/block-3495237.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495237",
+      "observedAt": "2026-09-25T18:23:57.662390+00:00",
+      "status": 200,
+      "sha256": "3f66c0322010cc2bf3c966fd1c9a93637c9da32b4447557955ca8df5662a1a8f",
+      "bytes": 167365,
+      "elapsedSeconds": 0.891,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 556",
+        "Ratelimit-Reset: 51"
+      ]
+    },
+    {
+      "file": "raw/block-3495513.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495513",
+      "observedAt": "2026-09-25T18:27:10.292984+00:00",
+      "status": 200,
+      "sha256": "2b84a77e1066c56f82f3a537e7c836ad5220534dbbf2edcc8c236971cb0f4441",
+      "bytes": 15418,
+      "elapsedSeconds": 1.297,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 581",
+        "Ratelimit-Reset: 56"
+      ]
+    },
+    {
+      "file": "raw/block-3495524.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495524",
+      "observedAt": "2026-09-25T18:27:10.121039+00:00",
+      "status": 200,
+      "sha256": "7ff8e833c95ecebc57ba2f1c55421080aaaa8093b649a4b4658f94658e0d3187",
+      "bytes": 7916,
+      "elapsedSeconds": 1.125,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 583",
+        "Ratelimit-Reset: 56"
+      ]
+    },
+    {
+      "file": "raw/block-3495525.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495525",
+      "observedAt": "2026-09-25T18:27:10.259909+00:00",
+      "status": 200,
+      "sha256": "c4daa0979735a0734eb58c3cc357e3b303ffc64c127a573468485afcc2cd4542",
+      "bytes": 13904,
+      "elapsedSeconds": 1.25,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 582",
+        "Ratelimit-Reset: 56"
+      ]
+    },
+    {
+      "file": "raw/block-3495676.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495676",
+      "observedAt": "2026-09-25T18:27:10.786454+00:00",
+      "status": 200,
+      "sha256": "22da043d48573a8168bf13f66bd577dc5a2d6fc2022be67b6e89bc7c629c9ce4",
+      "bytes": 14075,
+      "elapsedSeconds": 0.657,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 580",
+        "Ratelimit-Reset: 55"
+      ]
+    },
+    {
+      "file": "raw/block-3495793.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495793",
+      "observedAt": "2026-09-25T18:27:10.874467+00:00",
+      "status": 200,
+      "sha256": "06f58e0cc90b2ea83d707dbec8d9425772c4cfdd533d6c2db2c1589ff7af613c",
+      "bytes": 40106,
+      "elapsedSeconds": 0.625,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 579",
+        "Ratelimit-Reset: 55"
+      ]
+    },
+    {
+      "file": "raw/block-3495855.json",
+      "url": "https://api.mainnet.cipherscan.app/api/block/3495855",
+      "observedAt": "2026-09-25T18:27:10.974990+00:00",
+      "status": 200,
+      "sha256": "fc61cad9fa0b2acef8a0dc43c7b2934e778ebe2eab7cc1dcfea22027d1745454",
+      "bytes": 39705,
+      "elapsedSeconds": 0.687,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 578",
+        "Ratelimit-Reset: 55"
+      ]
+    },
+    {
+      "file": "raw/operator-activity-3488585-43.json",
+      "url": "https://zrunes.io/idx/zcash-metaprotocols/zrunes/3488585:43/activity?limit=100",
+      "observedAt": "2026-09-25T18:23:02.456895+00:00",
+      "status": 200,
+      "sha256": "134ce32891ade6b127aeb60230a8f32a990b50b52a3e38dc257399ec5a694571",
+      "bytes": 1995,
+      "elapsedSeconds": 0.422,
+      "rateLimitHeaders": {}
+    },
+    {
+      "file": "raw/operator-activity-3493055-7.json",
+      "url": "https://zrunes.io/idx/zcash-metaprotocols/zrunes/3493055:7/activity?limit=100",
+      "observedAt": "2026-09-25T18:23:02.723582+00:00",
+      "status": 200,
+      "sha256": "b3739e8278c9fbe3f8907e95afd0458789627e1caa9264c7faba90a6d1e13b86",
+      "bytes": 806,
+      "elapsedSeconds": 0.687,
+      "rateLimitHeaders": {}
+    },
+    {
+      "file": "raw/operator-activity-3494657-20.json",
+      "url": "https://zrunes.io/idx/zcash-metaprotocols/zrunes/3494657:20/activity?limit=100",
+      "observedAt": "2026-09-25T18:23:02.437180+00:00",
+      "status": 200,
+      "sha256": "5da1612accfc832bb43fcbb08ef7093bf92d10745b9aca10d51ef6c180bb9d0f",
+      "bytes": 985,
+      "elapsedSeconds": 0.406,
+      "rateLimitHeaders": {}
+    },
+    {
+      "file": "raw/operator-activity-3495145-3.json",
+      "url": "https://zrunes.io/idx/zcash-metaprotocols/zrunes/3495145:3/activity?limit=100",
+      "observedAt": "2026-09-25T18:23:03.012865+00:00",
+      "status": 200,
+      "sha256": "9785018d9f46bf48bf41c880d505769e84ac0a86dcdfacc6faf70f2005869b4e",
+      "bytes": 824,
+      "elapsedSeconds": 0.562,
+      "rateLimitHeaders": {}
+    },
+    {
+      "file": "raw/operator-activity-3495225-1.json",
+      "url": "https://zrunes.io/idx/zcash-metaprotocols/zrunes/3495225:1/activity?limit=100",
+      "observedAt": "2026-09-25T18:23:02.995440+00:00",
+      "status": 200,
+      "sha256": "5d0006938736522dafb6210254038a53bdaf3de3d46f0ed53c10909e3d01b321",
+      "bytes": 839,
+      "elapsedSeconds": 0.531,
+      "rateLimitHeaders": {}
+    },
+    {
+      "file": "raw/operator-activity-3495230-8.json",
+      "url": "https://zrunes.io/idx/zcash-metaprotocols/zrunes/3495230:8/activity?limit=100",
+      "observedAt": "2026-09-25T18:23:03.142512+00:00",
+      "status": 200,
+      "sha256": "ed2362debfdf075ebd0801287f57cb06cf2d3fb7be6220ccff051f3a1149a9c1",
+      "bytes": 842,
+      "elapsedSeconds": 0.422,
+      "rateLimitHeaders": {}
+    },
+    {
+      "file": "raw/operator-activity-3495237-9.json",
+      "url": "https://zrunes.io/idx/zcash-metaprotocols/zrunes/3495237:9/activity?limit=100",
+      "observedAt": "2026-09-25T18:23:03.385419+00:00",
+      "status": 200,
+      "sha256": "794ae88622df09c0f9bdc74c375df4b23b3418c6ec3cfae060f251b0726b01b3",
+      "bytes": 863,
+      "elapsedSeconds": 0.39,
+      "rateLimitHeaders": {}
+    },
+    {
+      "file": "raw/operator-holders-3488585-43.json",
+      "url": "https://zrunes.io/idx/zcash-metaprotocols/zrunes/3488585:43/holders?limit=100",
+      "observedAt": "2026-09-25T18:27:34.279784+00:00",
+      "status": 200,
+      "sha256": "f6a4506e3804100fa7f68006fbce52d8711f396fc216f017d9ab8c7303c6e783",
+      "bytes": 763,
+      "elapsedSeconds": 2.938,
+      "rateLimitHeaders": []
+    },
+    {
+      "file": "raw/operator-holders-3494657-20.json",
+      "url": "https://zrunes.io/idx/zcash-metaprotocols/zrunes/3494657:20/holders?limit=100",
+      "observedAt": "2026-09-25T18:27:34.279784+00:00",
+      "status": 200,
+      "sha256": "6d67359e536c5464dc7e655a7dd98436adf0d19d8de896e675a2a4e5d0d8a6e3",
+      "bytes": 695,
+      "elapsedSeconds": 2.938,
+      "rateLimitHeaders": []
+    },
+    {
+      "file": "raw/operator-tokens.json",
+      "url": "https://zrunes.io/idx/zcash-metaprotocols/zrunes?limit=100",
+      "observedAt": "2026-09-25T18:23:02.033596+00:00",
+      "status": 200,
+      "sha256": "6c6c9efef92c2a33643c040f7067d3311f9889e4ae2b193f3483e861e685c22a",
+      "bytes": 4372,
+      "elapsedSeconds": 0.641,
+      "rateLimitHeaders": {}
+    },
+    {
+      "file": "raw/tx-0775ec7191db754382f1ff0adf563e9af65a4030eee66d9817771387f07db68b-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/0775ec7191db754382f1ff0adf563e9af65a4030eee66d9817771387f07db68b/verbose",
+      "observedAt": "2026-09-25T18:23:47.995390+00:00",
+      "status": 200,
+      "sha256": "97f6e288c5f67358ef54fed9530a3dd8ca25d3f49bd3dfbd04deeede5419dd01",
+      "bytes": 3082,
+      "elapsedSeconds": 9.766,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 597",
+        "Ratelimit-Reset: 60"
+      ]
+    },
+    {
+      "file": "raw/tx-08743f39d0880e548865e56970808b222ee42852b8f9181bb1c82510e27fe7a6-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/08743f39d0880e548865e56970808b222ee42852b8f9181bb1c82510e27fe7a6/verbose",
+      "observedAt": "2026-09-25T18:26:42.548063+00:00",
+      "status": 200,
+      "sha256": "fc4937bb702c644c16df4244dab6fe247a1ecfcdbc781d65568594452f34e674",
+      "bytes": 3107,
+      "elapsedSeconds": 0.593,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 593",
+        "Ratelimit-Reset: 22"
+      ]
+    },
+    {
+      "file": "raw/tx-0a3786d3d52b0600f721a2d45e601c99ca7dc8fd8cad5eb878d65c2dd0b7e014-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/0a3786d3d52b0600f721a2d45e601c99ca7dc8fd8cad5eb878d65c2dd0b7e014/verbose",
+      "observedAt": "2026-09-25T18:27:18.606385+00:00",
+      "status": 200,
+      "sha256": "7fecd459b9d0ceac6535068833068cf286e9143463c3487bf26ec079bc46c3d8",
+      "bytes": 2143,
+      "elapsedSeconds": 0.484,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 573",
+        "Ratelimit-Reset: 47"
+      ]
+    },
+    {
+      "file": "raw/tx-0c74e2177202998a90b602240630e20342503bb42cdf81f7332f411ee69b3fb7-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/0c74e2177202998a90b602240630e20342503bb42cdf81f7332f411ee69b3fb7/verbose",
+      "observedAt": "2026-09-25T18:26:42.568721+00:00",
+      "status": 200,
+      "sha256": "7b5cd29c032bb06ffd857a119882768920fb1b364820160b9f075ebe41d15d5c",
+      "bytes": 2960,
+      "elapsedSeconds": 0.609,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 592",
+        "Ratelimit-Reset: 22"
+      ]
+    },
+    {
+      "file": "raw/tx-0df90a31759206a7d3ad18475039c7821069cf012b0c435412ce397aeec8afaa-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/0df90a31759206a7d3ad18475039c7821069cf012b0c435412ce397aeec8afaa/verbose",
+      "observedAt": "2026-09-25T18:23:47.984368+00:00",
+      "status": 200,
+      "sha256": "516aa8c5d63cd7116f8f606e6eb2c5588d3d808c57dd319c71f74be8b858c144",
+      "bytes": 3177,
+      "elapsedSeconds": 9.766,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 599",
+        "Ratelimit-Reset: 60"
+      ]
+    },
+    {
+      "file": "raw/tx-0e656bc42550095b6591f4c2d573a441b6d3e290109f4916499af8405d1b8975-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/0e656bc42550095b6591f4c2d573a441b6d3e290109f4916499af8405d1b8975/verbose",
+      "observedAt": "2026-09-25T18:26:42.788599+00:00",
+      "status": 200,
+      "sha256": "56bb9e53f9622181da0b6573b94b114f09733b56366ae778ba950ced00aeb900",
+      "bytes": 2952,
+      "elapsedSeconds": 0.828,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 591",
+        "Ratelimit-Reset: 22"
+      ]
+    },
+    {
+      "file": "raw/tx-0e66b4620cb8bd2a87d9aea6249971e7241e82e9cf4822b06441ed71e263cb1c-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/0e66b4620cb8bd2a87d9aea6249971e7241e82e9cf4822b06441ed71e263cb1c/verbose",
+      "observedAt": "2026-09-25T18:23:51.518127+00:00",
+      "status": 200,
+      "sha256": "1a426eb1af3436a0fcd9722716449f7baee3449756bcdbfe51bc509ed6cd610c",
+      "bytes": 2797,
+      "elapsedSeconds": 0.5,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 581",
+        "Ratelimit-Reset: 57"
+      ]
+    },
+    {
+      "file": "raw/tx-0eb1bfc1bf5e5db6625d9e42b086215fa35dc43025c454af4bd45666bf2eb193-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/0eb1bfc1bf5e5db6625d9e42b086215fa35dc43025c454af4bd45666bf2eb193/verbose",
+      "observedAt": "2026-09-25T18:26:43.349764+00:00",
+      "status": 200,
+      "sha256": "8669cc262168b2da6e4e9f1ec19385e574b1ff00a67b627651afe8882ae911e0",
+      "bytes": 56493,
+      "elapsedSeconds": 0.797,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 590",
+        "Ratelimit-Reset: 21"
+      ]
+    },
+    {
+      "file": "raw/tx-105622692f3bf46fcfcf834c592793a1a23512a2fae1ae07db8d75dca377f4e1-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/105622692f3bf46fcfcf834c592793a1a23512a2fae1ae07db8d75dca377f4e1/verbose",
+      "observedAt": "2026-09-25T18:23:48.124790+00:00",
+      "status": 200,
+      "sha256": "feb65393ee6bab8e4e8ea84f861faea5a98ab11785e7f66b759c005e21e76400",
+      "bytes": 6171,
+      "elapsedSeconds": 9.906,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 598",
+        "Ratelimit-Reset: 60"
+      ]
+    },
+    {
+      "file": "raw/tx-10b01453ef23beaaa5651ab8bd65ae986155bbb3f8e253c7f2d1a08b3cb72db0-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/10b01453ef23beaaa5651ab8bd65ae986155bbb3f8e253c7f2d1a08b3cb72db0/verbose",
+      "observedAt": "2026-09-25T18:26:43.211929+00:00",
+      "status": 200,
+      "sha256": "b8e99debb37428e1437053fed02d8c88ed5b42bf12fa2c762ab492e699d1dd38",
+      "bytes": 2952,
+      "elapsedSeconds": 0.641,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 589",
+        "Ratelimit-Reset: 21"
+      ]
+    },
+    {
+      "file": "raw/tx-1d452f54353f9e997bbe83061076467179169a0820219188765baee521d1d93d-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/1d452f54353f9e997bbe83061076467179169a0820219188765baee521d1d93d/verbose",
+      "observedAt": "2026-09-25T18:23:48.565143+00:00",
+      "status": 200,
+      "sha256": "a68e9b224ea9015fb572b7dc59549538b64295a3853270ef7fcd5db0dcf50e84",
+      "bytes": 3114,
+      "elapsedSeconds": 0.578,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 595",
+        "Ratelimit-Reset: 60"
+      ]
+    },
+    {
+      "file": "raw/tx-202c31fc002241e317cd0ddc615c1a7d2ee814803f7cd89506e906a195b7e381-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/202c31fc002241e317cd0ddc615c1a7d2ee814803f7cd89506e906a195b7e381/verbose",
+      "observedAt": "2026-09-25T18:26:43.275025+00:00",
+      "status": 200,
+      "sha256": "85450ed3f08819c75217dfb35ba00fe2bbd795c04d2a4977347b588c2a607a63",
+      "bytes": 2985,
+      "elapsedSeconds": 0.484,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 588",
+        "Ratelimit-Reset: 21"
+      ]
+    },
+    {
+      "file": "raw/tx-2060d54cf095967fe5bc988cf87b895f3811294780456ef87fab4ba5ab8e60fc-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/2060d54cf095967fe5bc988cf87b895f3811294780456ef87fab4ba5ab8e60fc/verbose",
+      "observedAt": "2026-09-25T18:23:48.563143+00:00",
+      "status": 200,
+      "sha256": "33261f3fd2d4b00dc89d29dc43383f522e2063ffa56c486fb7ffe99c3a8a2ec3",
+      "bytes": 3002,
+      "elapsedSeconds": 0.578,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 596",
+        "Ratelimit-Reset: 60"
+      ]
+    },
+    {
+      "file": "raw/tx-21aec9bc562743f97535d12bb6e0bee13e1f2a964be00212cbf495459040b354-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/21aec9bc562743f97535d12bb6e0bee13e1f2a964be00212cbf495459040b354/verbose",
+      "observedAt": "2026-09-25T18:26:43.673682+00:00",
+      "status": 200,
+      "sha256": "04523cc1945a17b1af493b2574b5fccbec9ddd43b35c6d93edc34530a7f4760a",
+      "bytes": 2945,
+      "elapsedSeconds": 0.468,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 587",
+        "Ratelimit-Reset: 21"
+      ]
+    },
+    {
+      "file": "raw/tx-23179f7d4e72f57abd1f3c7f00325bb9eac346a9b021283f523551a39017ab37-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/23179f7d4e72f57abd1f3c7f00325bb9eac346a9b021283f523551a39017ab37/verbose",
+      "observedAt": "2026-09-25T18:26:43.781389+00:00",
+      "status": 200,
+      "sha256": "aaa23da7b31273f8f91b99c76f1976c21e4be95b39200ecac2243ee3326982fb",
+      "bytes": 3966,
+      "elapsedSeconds": 0.516,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 586",
+        "Ratelimit-Reset: 21"
+      ]
+    },
+    {
+      "file": "raw/tx-2533d18d8255561a94aca6bd5df42f6e5ed108a50fd8f0f627f3cc191fbc20f5-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/2533d18d8255561a94aca6bd5df42f6e5ed108a50fd8f0f627f3cc191fbc20f5/verbose",
+      "observedAt": "2026-09-25T18:26:43.813707+00:00",
+      "status": 200,
+      "sha256": "67bf21ead7c321165999db07c9d32ad036aab43951779e55487e9979debb0b33",
+      "bytes": 3107,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 585",
+        "Ratelimit-Reset: 21"
+      ]
+    },
+    {
+      "file": "raw/tx-275bc2e6bdb94cc1fd1d4943fdcfc1ae33ecdc00793525c1147255cad3c98f87-details.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/275bc2e6bdb94cc1fd1d4943fdcfc1ae33ecdc00793525c1147255cad3c98f87",
+      "observedAt": "2026-09-25T18:24:12.293087+00:00",
+      "status": 200,
+      "sha256": "fd22187d0403c1e5fa3ec5510119fb8376cecb3e341de5e189546bfe79662622",
+      "bytes": 1573,
+      "elapsedSeconds": 0.641,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 555",
+        "Ratelimit-Reset: 36"
+      ]
+    },
+    {
+      "file": "raw/tx-275bc2e6bdb94cc1fd1d4943fdcfc1ae33ecdc00793525c1147255cad3c98f87-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/275bc2e6bdb94cc1fd1d4943fdcfc1ae33ecdc00793525c1147255cad3c98f87/verbose",
+      "observedAt": "2026-09-25T18:23:49.293369+00:00",
+      "status": 200,
+      "sha256": "e96c7fea976bdf08f242e53040e4d55abd62c74495862559ff5f5ec2210a443e",
+      "bytes": 4586,
+      "elapsedSeconds": 1.157,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 594",
+        "Ratelimit-Reset: 60"
+      ]
+    },
+    {
+      "file": "raw/tx-282c4bbc584d149a7567a8e540f2d414d2c72004c8c1719d9361f34c30b21d9f-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/282c4bbc584d149a7567a8e540f2d414d2c72004c8c1719d9361f34c30b21d9f/verbose",
+      "observedAt": "2026-09-25T18:26:44.196708+00:00",
+      "status": 200,
+      "sha256": "9dcabd36fbd97ba927d02b000eb2779cf1102acd03edad2ed8fc2ee3dff60522",
+      "bytes": 3091,
+      "elapsedSeconds": 0.516,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 584",
+        "Ratelimit-Reset: 20"
+      ]
+    },
+    {
+      "file": "raw/tx-312ecb0ed723013144f461b1edd808b0c9ac577c29bbf4529d2e47a6c8a86b18-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/312ecb0ed723013144f461b1edd808b0c9ac577c29bbf4529d2e47a6c8a86b18/verbose",
+      "observedAt": "2026-09-25T18:23:49.584013+00:00",
+      "status": 200,
+      "sha256": "b211a1752e7a7fab11b691ad60ac363463df03c4c4c9dcf683d3eb3f1aa77a56",
+      "bytes": 3129,
+      "elapsedSeconds": 1.016,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 592",
+        "Ratelimit-Reset: 59"
+      ]
+    },
+    {
+      "file": "raw/tx-37cbdb8c72572c02a1f278d7747e902f42b6b40d54059f8a9aabed3f177c8d83-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/37cbdb8c72572c02a1f278d7747e902f42b6b40d54059f8a9aabed3f177c8d83/verbose",
+      "observedAt": "2026-09-25T18:27:18.899360+00:00",
+      "status": 200,
+      "sha256": "ae233518ecd076d5e17ea74a29f4effb58d4ca587bdf6b33480bfec710b1f0d9",
+      "bytes": 95326,
+      "elapsedSeconds": 0.766,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 572",
+        "Ratelimit-Reset: 47"
+      ]
+    },
+    {
+      "file": "raw/tx-3820675999235ef0ac3b464e0844dc8761364b781249cacd2487d8586afd71be-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/3820675999235ef0ac3b464e0844dc8761364b781249cacd2487d8586afd71be/verbose",
+      "observedAt": "2026-09-25T18:26:44.264559+00:00",
+      "status": 200,
+      "sha256": "c5c84bdbb8081d0f4879c9fe877cbd276f8f6c027f11a23800378e7cc39a1fc4",
+      "bytes": 2960,
+      "elapsedSeconds": 0.484,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 583",
+        "Ratelimit-Reset: 20"
+      ]
+    },
+    {
+      "file": "raw/tx-38a59cf66d9642949857a73b4eb709cabdb9c6ae5f35c6d6916249138d1c721b-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/38a59cf66d9642949857a73b4eb709cabdb9c6ae5f35c6d6916249138d1c721b/verbose",
+      "observedAt": "2026-09-25T18:26:44.276069+00:00",
+      "status": 200,
+      "sha256": "49617612a08fb10858252c4e09861b66ba0690fc20c21ac2d0cbb42854c72691",
+      "bytes": 3321,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 582",
+        "Ratelimit-Reset: 20"
+      ]
+    },
+    {
+      "file": "raw/tx-3919b32fe4ac07f9d304482cda909eedb90f1f579c413709d23221f9e31721c5-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/3919b32fe4ac07f9d304482cda909eedb90f1f579c413709d23221f9e31721c5/verbose",
+      "observedAt": "2026-09-25T18:27:18.585611+00:00",
+      "status": 200,
+      "sha256": "c18c6b16fb790273d2c4a5aec7fe2393b2124b0d019b51856c964743f517059c",
+      "bytes": 2341,
+      "elapsedSeconds": 0.454,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 574",
+        "Ratelimit-Reset: 47"
+      ]
+    },
+    {
+      "file": "raw/tx-394beb5e27fb79c5d7fd81011cdb0842e73984884391e4c6bed0c19b71ad298a-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/394beb5e27fb79c5d7fd81011cdb0842e73984884391e4c6bed0c19b71ad298a/verbose",
+      "observedAt": "2026-09-25T18:26:44.714179+00:00",
+      "status": 200,
+      "sha256": "6e281d70008417dec7d859f4d2102cdba8b17c25919d5e6013339523082b00f4",
+      "bytes": 3360,
+      "elapsedSeconds": 0.516,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 581",
+        "Ratelimit-Reset: 20"
+      ]
+    },
+    {
+      "file": "raw/tx-3a8b6c46ade30e42b3d2a0bddc2ff18e366c34b74bfb7a322c741c4188871b68-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/3a8b6c46ade30e42b3d2a0bddc2ff18e366c34b74bfb7a322c741c4188871b68/verbose",
+      "observedAt": "2026-09-25T18:26:44.719178+00:00",
+      "status": 200,
+      "sha256": "a3e31838fe673ee301baf8d351c3a5edb0f195a81f7060508ce167288eee9845",
+      "bytes": 3099,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 580",
+        "Ratelimit-Reset: 20"
+      ]
+    },
+    {
+      "file": "raw/tx-3dcb7726e748954a6d01be4044ca22c14731e30fcac37ee35da5de9d189923ec-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/3dcb7726e748954a6d01be4044ca22c14731e30fcac37ee35da5de9d189923ec/verbose",
+      "observedAt": "2026-09-25T18:26:44.750526+00:00",
+      "status": 200,
+      "sha256": "5c0db386026de912bdee3231944448cf3fccf097ea00c4a2b3e0734ddcb8be98",
+      "bytes": 2952,
+      "elapsedSeconds": 0.484,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 579",
+        "Ratelimit-Reset: 20"
+      ]
+    },
+    {
+      "file": "raw/tx-409ae1537d94d6e9575976c072982698c21c30885e7094ab82fd571a31e68d5d-details.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/409ae1537d94d6e9575976c072982698c21c30885e7094ab82fd571a31e68d5d",
+      "observedAt": "2026-09-25T18:27:18.086398+00:00",
+      "status": 200,
+      "sha256": "95c0735cfb4efcfca4e510a5d3dbf46c8e0b5dbfa47c69cde9d2c2bd033effa1",
+      "bytes": 1564,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 577",
+        "Ratelimit-Reset: 48"
+      ]
+    },
+    {
+      "file": "raw/tx-409ae1537d94d6e9575976c072982698c21c30885e7094ab82fd571a31e68d5d-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/409ae1537d94d6e9575976c072982698c21c30885e7094ab82fd571a31e68d5d/verbose",
+      "observedAt": "2026-09-25T18:23:49.582501+00:00",
+      "status": 200,
+      "sha256": "2bd18e1dc86a81a0dd2ba27b1ef53f36f6a2e23d2f3f9caa62450bd587a49be0",
+      "bytes": 5759,
+      "elapsedSeconds": 1.016,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 593",
+        "Ratelimit-Reset: 59"
+      ]
+    },
+    {
+      "file": "raw/tx-45a6504891069209295ae79bcf546631fbca59a3751ff100caf78017b83053a1-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/45a6504891069209295ae79bcf546631fbca59a3751ff100caf78017b83053a1/verbose",
+      "observedAt": "2026-09-25T18:23:49.812375+00:00",
+      "status": 200,
+      "sha256": "3acd36d2c3ef1c68deb216868be564b19cb2cec5ccbb6e9fbb5e5b6ce7899d96",
+      "bytes": 4619,
+      "elapsedSeconds": 0.531,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 591",
+        "Ratelimit-Reset: 59"
+      ]
+    },
+    {
+      "file": "raw/tx-47a897f71635837fad894a0590b60de6373f80728939fd570ef216c404701bf0-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/47a897f71635837fad894a0590b60de6373f80728939fd570ef216c404701bf0/verbose",
+      "observedAt": "2026-09-25T18:23:51.490829+00:00",
+      "status": 200,
+      "sha256": "cbca3fe475cadf83cee60ae2d236c85bca026e410b1b7b6181b55800107bae72",
+      "bytes": 2797,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 582",
+        "Ratelimit-Reset: 57"
+      ]
+    },
+    {
+      "file": "raw/tx-48e49838ea3b1aef2731f1dc2865aefe3575b0f951d066c62c727b3df6114394-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/48e49838ea3b1aef2731f1dc2865aefe3575b0f951d066c62c727b3df6114394/verbose",
+      "observedAt": "2026-09-25T18:23:50.079298+00:00",
+      "status": 200,
+      "sha256": "8fff4d2e2a91018cbb044f6f3c029965b8cdb09c06aa1c43565efa554094291f",
+      "bytes": 6916,
+      "elapsedSeconds": 0.5,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 590",
+        "Ratelimit-Reset: 58"
+      ]
+    },
+    {
+      "file": "raw/tx-50679dfb8ba1b3fe2799f00becb5d48a896f560eb288097f134ac9ae08a7ce92-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/50679dfb8ba1b3fe2799f00becb5d48a896f560eb288097f134ac9ae08a7ce92/verbose",
+      "observedAt": "2026-09-25T18:26:45.166398+00:00",
+      "status": 200,
+      "sha256": "843a0db467c04870350856849dd04f8b9646d7e6c0e79e6d2f0be648d63abd7c",
+      "bytes": 2861,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 578",
+        "Ratelimit-Reset: 19"
+      ]
+    },
+    {
+      "file": "raw/tx-53f8f12424efb82e2f77b02259688d229276c47732e8c90426d9001a64edea97-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/53f8f12424efb82e2f77b02259688d229276c47732e8c90426d9001a64edea97/verbose",
+      "observedAt": "2026-09-25T18:26:45.192947+00:00",
+      "status": 200,
+      "sha256": "82236f7cf9889b84185c31f29f826d148c70f709a435c8a82beb78c50411d57d",
+      "bytes": 2952,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 577",
+        "Ratelimit-Reset: 19"
+      ]
+    },
+    {
+      "file": "raw/tx-581abf103a4a0f581ece8682d9b1a90b4e3c76325193f685155f7d05873d015c-details.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/581abf103a4a0f581ece8682d9b1a90b4e3c76325193f685155f7d05873d015c",
+      "observedAt": "2026-09-25T18:27:18.115162+00:00",
+      "status": 200,
+      "sha256": "71e30a1def17a340694c2ebeef2b7384ddda6184b83fb25744f37cc68f1d4522",
+      "bytes": 1397,
+      "elapsedSeconds": 0.5,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 576",
+        "Ratelimit-Reset: 48"
+      ]
+    },
+    {
+      "file": "raw/tx-581abf103a4a0f581ece8682d9b1a90b4e3c76325193f685155f7d05873d015c-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/581abf103a4a0f581ece8682d9b1a90b4e3c76325193f685155f7d05873d015c/verbose",
+      "observedAt": "2026-09-25T18:23:50.154479+00:00",
+      "status": 200,
+      "sha256": "68ea8b1dd95b1792d2ea999f44c2e3172f3f3686bda7ff03f6847bdb5cb81c63",
+      "bytes": 3040,
+      "elapsedSeconds": 0.578,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 589",
+        "Ratelimit-Reset: 58"
+      ]
+    },
+    {
+      "file": "raw/tx-58720a065e95d0f0caebc7a15e4298beb7639917d55ea2b6773c41e1c0de4399-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/58720a065e95d0f0caebc7a15e4298beb7639917d55ea2b6773c41e1c0de4399/verbose",
+      "observedAt": "2026-09-25T18:27:19.048804+00:00",
+      "status": 200,
+      "sha256": "1fa829634fb5c1d13323139f4ea9ebae2deb0512307749b7f65f3e3121f768d3",
+      "bytes": 2090,
+      "elapsedSeconds": 0.468,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 571",
+        "Ratelimit-Reset: 47"
+      ]
+    },
+    {
+      "file": "raw/tx-59a4089a6c908d3be7ce527a9321bb7925197682a95a268eb7459985d143654b-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/59a4089a6c908d3be7ce527a9321bb7925197682a95a268eb7459985d143654b/verbose",
+      "observedAt": "2026-09-25T18:26:45.218152+00:00",
+      "status": 200,
+      "sha256": "eca772554a61f9bbd8d6119567c2c93660076a89a23256de2ff569eb6293e8dc",
+      "bytes": 2985,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 576",
+        "Ratelimit-Reset: 19"
+      ]
+    },
+    {
+      "file": "raw/tx-5e7fca52936abbb83a1641b43a7975fbe434f2a0a2b9eb55753021375097acb1-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/5e7fca52936abbb83a1641b43a7975fbe434f2a0a2b9eb55753021375097acb1/verbose",
+      "observedAt": "2026-09-25T18:26:45.660258+00:00",
+      "status": 200,
+      "sha256": "ac99740a359ae3d81eac6f5469bfdaa85efee82839c9cb709f7035fb2d05c4f2",
+      "bytes": 3099,
+      "elapsedSeconds": 0.5,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 574",
+        "Ratelimit-Reset: 19"
+      ]
+    },
+    {
+      "file": "raw/tx-6090fdd8accbc3f80a54a3cd83f60c283587d9711bd3f9b3911fc11c57a46c02-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/6090fdd8accbc3f80a54a3cd83f60c283587d9711bd3f9b3911fc11c57a46c02/verbose",
+      "observedAt": "2026-09-25T18:23:50.275080+00:00",
+      "status": 200,
+      "sha256": "416b16d96cbfde05a48d9a9cdea03a12e07a691691cab18c3feb0f4b479ee8cb",
+      "bytes": 6902,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 588",
+        "Ratelimit-Reset: 58"
+      ]
+    },
+    {
+      "file": "raw/tx-620a7471cb15caadbb259013554161f12cdf9815eeacd2ba558f27a3a99967c2-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/620a7471cb15caadbb259013554161f12cdf9815eeacd2ba558f27a3a99967c2/verbose",
+      "observedAt": "2026-09-25T18:26:45.933725+00:00",
+      "status": 200,
+      "sha256": "c092702d3db47e82195ffbecc4ecb9fd126031d85a12bf7ff05590b4c5086314",
+      "bytes": 56501,
+      "elapsedSeconds": 0.734,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 575",
+        "Ratelimit-Reset: 19"
+      ]
+    },
+    {
+      "file": "raw/tx-63a356d3b0567cf518f0347c1cd73cd18ee4810cc7caaf4bf68c37adcce844fe-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/63a356d3b0567cf518f0347c1cd73cd18ee4810cc7caaf4bf68c37adcce844fe/verbose",
+      "observedAt": "2026-09-25T18:23:50.570411+00:00",
+      "status": 200,
+      "sha256": "6b0f468ca8b73dccf80723ecf6a53f6fcf93f06a01aeb00af506d6230097b528",
+      "bytes": 3145,
+      "elapsedSeconds": 0.484,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 587",
+        "Ratelimit-Reset: 58"
+      ]
+    },
+    {
+      "file": "raw/tx-67fdb2c434ec90fd0f0447ceace08a38b691d1bd7c6b8bd13ef24167d15f4e3b-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/67fdb2c434ec90fd0f0447ceace08a38b691d1bd7c6b8bd13ef24167d15f4e3b/verbose",
+      "observedAt": "2026-09-25T18:26:45.679529+00:00",
+      "status": 200,
+      "sha256": "966ba7955833aebe415f4df317cdb5838773823fb87922c490432e50986a726f",
+      "bytes": 2960,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 573",
+        "Ratelimit-Reset: 19"
+      ]
+    },
+    {
+      "file": "raw/tx-6cb6dd928f267552bad08f5c7a87399312f8e25965b5437af7afcade6b021324-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/6cb6dd928f267552bad08f5c7a87399312f8e25965b5437af7afcade6b021324/verbose",
+      "observedAt": "2026-09-25T18:26:46.120948+00:00",
+      "status": 200,
+      "sha256": "ce38d16fcbdd17b476cf8f645df7039b795d040408482a7cf21d8f8e3a950c74",
+      "bytes": 2976,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 572",
+        "Ratelimit-Reset: 18"
+      ]
+    },
+    {
+      "file": "raw/tx-779c1773b1fd12b825997813d85f910431aee8add8fb2b93bfff31acc5a7985a-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/779c1773b1fd12b825997813d85f910431aee8add8fb2b93bfff31acc5a7985a/verbose",
+      "observedAt": "2026-09-25T18:26:46.135369+00:00",
+      "status": 200,
+      "sha256": "340420afff9b00829e910308860c05bca4e266e0a20ad0d1327f6b08c88d3e93",
+      "bytes": 2937,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 571",
+        "Ratelimit-Reset: 18"
+      ]
+    },
+    {
+      "file": "raw/tx-77ac11fbacfe286323cff7befebce7e49735bd91d743aafe27c6bf019383f61a-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/77ac11fbacfe286323cff7befebce7e49735bd91d743aafe27c6bf019383f61a/verbose",
+      "observedAt": "2026-09-25T18:26:46.443307+00:00",
+      "status": 200,
+      "sha256": "30d6adcc83c728a7d35cf3493c5f487bae363cbb890ed68f0b2bd41e838d0fce",
+      "bytes": 2782,
+      "elapsedSeconds": 0.5,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 570",
+        "Ratelimit-Reset: 18"
+      ]
+    },
+    {
+      "file": "raw/tx-78cd5b68a58d44c7355c099d2ba10bb55b4f0ac29244e5504fc54bb8caa203f5-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/78cd5b68a58d44c7355c099d2ba10bb55b4f0ac29244e5504fc54bb8caa203f5/verbose",
+      "observedAt": "2026-09-25T18:26:46.580632+00:00",
+      "status": 200,
+      "sha256": "43e5607d2b48ca34d1c75a1c00466841cae3dc52bf9a09179158ef3affe1fb24",
+      "bytes": 2960,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 569",
+        "Ratelimit-Reset: 18"
+      ]
+    },
+    {
+      "file": "raw/tx-7b56fd0543efe3f598e0489416a9aa44517f225a629804cbe998d68c100c12fb-details.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/7b56fd0543efe3f598e0489416a9aa44517f225a629804cbe998d68c100c12fb",
+      "observedAt": "2026-09-25T18:27:18.120162+00:00",
+      "status": 200,
+      "sha256": "fb1c840408ca346bffe080329f55b981d602322cea04161a4676fcf46ba42656",
+      "bytes": 1574,
+      "elapsedSeconds": 0.5,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 575",
+        "Ratelimit-Reset: 48"
+      ]
+    },
+    {
+      "file": "raw/tx-7b56fd0543efe3f598e0489416a9aa44517f225a629804cbe998d68c100c12fb-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/7b56fd0543efe3f598e0489416a9aa44517f225a629804cbe998d68c100c12fb/verbose",
+      "observedAt": "2026-09-25T18:23:50.613900+00:00",
+      "status": 200,
+      "sha256": "07aa5b8eef0ea9a18ff69144c8386f18bd708b7a5cce13f268d6784a487244fa",
+      "bytes": 4218,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 586",
+        "Ratelimit-Reset: 58"
+      ]
+    },
+    {
+      "file": "raw/tx-7b9ddbaa5a09ebb99b1c5d1ac0c2399aab05facc7e2ee2096222f3bf191b9fa3-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/7b9ddbaa5a09ebb99b1c5d1ac0c2399aab05facc7e2ee2096222f3bf191b9fa3/verbose",
+      "observedAt": "2026-09-25T18:26:46.617915+00:00",
+      "status": 200,
+      "sha256": "2ed9df9013fe4cd8e36abb4abd7863e3571c3f9392612d3a64b321bc8e9cd14e",
+      "bytes": 2952,
+      "elapsedSeconds": 0.485,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 568",
+        "Ratelimit-Reset: 18"
+      ]
+    },
+    {
+      "file": "raw/tx-81f04a8e4c825b4aedae02d41cf818f4ceafdff8e78f91d273181451d8c1a682-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/81f04a8e4c825b4aedae02d41cf818f4ceafdff8e78f91d273181451d8c1a682/verbose",
+      "observedAt": "2026-09-25T18:26:46.908299+00:00",
+      "status": 200,
+      "sha256": "986c8b8bf42f27f86f31619dbb1b6fe3409af0e7220e0a6073cc41d422c4a8b1",
+      "bytes": 3945,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 567",
+        "Ratelimit-Reset: 18"
+      ]
+    },
+    {
+      "file": "raw/tx-88956e89f5595a3a3f81f0b2a3f8f452770bff7a1e8df4e0a994f9d3ee7e478e-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/88956e89f5595a3a3f81f0b2a3f8f452770bff7a1e8df4e0a994f9d3ee7e478e/verbose",
+      "observedAt": "2026-09-25T18:23:51.489791+00:00",
+      "status": 200,
+      "sha256": "5d159236626951bee68b258075827aa8c855de39468ed78b84565e615366a74b",
+      "bytes": 2805,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 583",
+        "Ratelimit-Reset: 57"
+      ]
+    },
+    {
+      "file": "raw/tx-8ac1c3a1db97390b8c69c0ebbf8f6d875471bf97426078237584d898c77a3180-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/8ac1c3a1db97390b8c69c0ebbf8f6d875471bf97426078237584d898c77a3180/verbose",
+      "observedAt": "2026-09-25T18:26:47.327241+00:00",
+      "status": 200,
+      "sha256": "15a3f5eef039010235f9676917f5701132fbdd55b6e41b4c527369796dd14bfc",
+      "bytes": 56495,
+      "elapsedSeconds": 0.75,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 566",
+        "Ratelimit-Reset: 18"
+      ]
+    },
+    {
+      "file": "raw/tx-8e615ac63077c8042a109fc741fe5c1643d515066ded539059c5eb89db7ea611-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/8e615ac63077c8042a109fc741fe5c1643d515066ded539059c5eb89db7ea611/verbose",
+      "observedAt": "2026-09-25T18:23:50.738574+00:00",
+      "status": 200,
+      "sha256": "7d7668901178965367f86a7f3c5e78a6600783749caae1e48bb0e6fa6acaa962",
+      "bytes": 3097,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 585",
+        "Ratelimit-Reset: 58"
+      ]
+    },
+    {
+      "file": "raw/tx-910b012c11950a7ed5e41a279427f904a14fc9afe2fcc1de0fb86ac38d32b525-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/910b012c11950a7ed5e41a279427f904a14fc9afe2fcc1de0fb86ac38d32b525/verbose",
+      "observedAt": "2026-09-25T18:26:47.079947+00:00",
+      "status": 200,
+      "sha256": "e7cbff496d9cd4fd4965c167403396836d03f67b5a7320444010f65c5ea5fab9",
+      "bytes": 3357,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 565",
+        "Ratelimit-Reset: 17"
+      ]
+    },
+    {
+      "file": "raw/tx-92a79252bad446030c71f8bcbc48749f2eae1c9a7cc11b1cb694e53245610378-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/92a79252bad446030c71f8bcbc48749f2eae1c9a7cc11b1cb694e53245610378/verbose",
+      "observedAt": "2026-09-25T18:26:47.669039+00:00",
+      "status": 200,
+      "sha256": "f68d635f1798565e50561c8e0348aa61467b26bbdb68c4a7d79322c9286fe888",
+      "bytes": 56494,
+      "elapsedSeconds": 0.75,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 564",
+        "Ratelimit-Reset: 17"
+      ]
+    },
+    {
+      "file": "raw/tx-97d4bd4e52b1de5a70756366cb36223f3a6e428ef135027f0526b92f82862ce2-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/97d4bd4e52b1de5a70756366cb36223f3a6e428ef135027f0526b92f82862ce2/verbose",
+      "observedAt": "2026-09-25T18:26:47.548868+00:00",
+      "status": 200,
+      "sha256": "9172fd046c84e777b00892b0e8b05df831bbaa03a731684cc1b71e1b2cc6e636",
+      "bytes": 2952,
+      "elapsedSeconds": 0.468,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 563",
+        "Ratelimit-Reset: 17"
+      ]
+    },
+    {
+      "file": "raw/tx-986fbbd1cda12b3e3d7b6c1e5c7f9d29f3a0b641ba3a55d5840a8b5a80ee9e29-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/986fbbd1cda12b3e3d7b6c1e5c7f9d29f3a0b641ba3a55d5840a8b5a80ee9e29/verbose",
+      "observedAt": "2026-09-25T18:26:47.791498+00:00",
+      "status": 200,
+      "sha256": "f4db195dcbda5801f0ee9f4f07cc9cb69d3ec9947fa00e7621cee2b2331c222b",
+      "bytes": 3115,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 562",
+        "Ratelimit-Reset: 17"
+      ]
+    },
+    {
+      "file": "raw/tx-9e922c4b66688631b4ce84e6e6afa30c72c3d533040963f7dca721f5c141a361-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/9e922c4b66688631b4ce84e6e6afa30c72c3d533040963f7dca721f5c141a361/verbose",
+      "observedAt": "2026-09-25T18:23:52.047581+00:00",
+      "status": 200,
+      "sha256": "d5190676466750eb37dec78f9e439e31103bb42d35e4088e5026f51f4135e4b2",
+      "bytes": 2806,
+      "elapsedSeconds": 0.562,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 579",
+        "Ratelimit-Reset: 56"
+      ]
+    },
+    {
+      "file": "raw/tx-9ea65848dadf899188ef70ac62c6682ee12451cbdd91d515b4c168d0c2ed9403-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/9ea65848dadf899188ef70ac62c6682ee12451cbdd91d515b4c168d0c2ed9403/verbose",
+      "observedAt": "2026-09-25T18:26:48.005613+00:00",
+      "status": 200,
+      "sha256": "517b8983e18c3fb26bc302b603b59b6fe437ca029f51a6962c3facb9cc69c9f4",
+      "bytes": 3091,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 561",
+        "Ratelimit-Reset: 17"
+      ]
+    },
+    {
+      "file": "raw/tx-a025266babd8b1dfc7c93719f187642e506366fd7ca1789f96e1741e799f2fa7-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/a025266babd8b1dfc7c93719f187642e506366fd7ca1789f96e1741e799f2fa7/verbose",
+      "observedAt": "2026-09-25T18:23:52.037575+00:00",
+      "status": 200,
+      "sha256": "5cf02ea0b82eaf0904231fca4016440e8de7db4afff0f5abc655695781a4ee74",
+      "bytes": 2798,
+      "elapsedSeconds": 0.547,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 580",
+        "Ratelimit-Reset: 56"
+      ]
+    },
+    {
+      "file": "raw/tx-a088ee4206b326ee2d3431f4cdfec314edf903cc6dc2812b6491b5e3c1c797e0-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/a088ee4206b326ee2d3431f4cdfec314edf903cc6dc2812b6491b5e3c1c797e0/verbose",
+      "observedAt": "2026-09-25T18:26:48.136640+00:00",
+      "status": 200,
+      "sha256": "81484272784bac2d205e4649825bc96f17390720004b6d9ee0ba9e5587926cb1",
+      "bytes": 3566,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 560",
+        "Ratelimit-Reset: 16"
+      ]
+    },
+    {
+      "file": "raw/tx-a3f24dd55389a74177f9664053d1bb29e12d01673c0ce2daefd3248e9fd945df-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/a3f24dd55389a74177f9664053d1bb29e12d01673c0ce2daefd3248e9fd945df/verbose",
+      "observedAt": "2026-09-25T18:23:52.175069+00:00",
+      "status": 200,
+      "sha256": "d6c110ce381c7e63347798de207c001ebe7885b4f24b696f3b7ccb28297e47e4",
+      "bytes": 3978,
+      "elapsedSeconds": 0.656,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 578",
+        "Ratelimit-Reset: 56"
+      ]
+    },
+    {
+      "file": "raw/tx-a420c0fe3064e61c420800434b7c761b4338c751209bf28b8cebb5215b58ba50-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/a420c0fe3064e61c420800434b7c761b4338c751209bf28b8cebb5215b58ba50/verbose",
+      "observedAt": "2026-09-25T18:26:48.247109+00:00",
+      "status": 200,
+      "sha256": "0238b02a507609aecb3c286e29241a3ab66eb67c098e19e0b5d7f05d15d96a6a",
+      "bytes": 2960,
+      "elapsedSeconds": 0.468,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 559",
+        "Ratelimit-Reset: 16"
+      ]
+    },
+    {
+      "file": "raw/tx-a6abf1c7464e084b89f4413d5485e159e064fce49fab7b40c07b5ef714c4ee21-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/a6abf1c7464e084b89f4413d5485e159e064fce49fab7b40c07b5ef714c4ee21/verbose",
+      "observedAt": "2026-09-25T18:26:49.091671+00:00",
+      "status": 200,
+      "sha256": "9979a0dfc4656601b5baf5bcced58bf230b8aa548ade4706c014c03a1c863abe",
+      "bytes": 2960,
+      "elapsedSeconds": 1.079,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 558",
+        "Ratelimit-Reset: 16"
+      ]
+    },
+    {
+      "file": "raw/tx-aa6406a4da594ac3ae14ba51d8d0951af707214ec8e0c089cf186c6d4929cf85-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/aa6406a4da594ac3ae14ba51d8d0951af707214ec8e0c089cf186c6d4929cf85/verbose",
+      "observedAt": "2026-09-25T18:26:49.114691+00:00",
+      "status": 200,
+      "sha256": "963c690acb64d6f986dcbeab910e312e9fd12b1a030b9eabdd070af8b4322fe1",
+      "bytes": 2799,
+      "elapsedSeconds": 0.969,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 557",
+        "Ratelimit-Reset: 16"
+      ]
+    },
+    {
+      "file": "raw/tx-ae25ade79c7c70ce08ba3a8446098b8fdec9b9905c701f3bc060d59f187520df-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/ae25ade79c7c70ce08ba3a8446098b8fdec9b9905c701f3bc060d59f187520df/verbose",
+      "observedAt": "2026-09-25T18:27:19.927972+00:00",
+      "status": 200,
+      "sha256": "ee6b3937a6147bda497f1e32c5c2f366d16f88edfff3d3f839347a095ef22413",
+      "bytes": 113220,
+      "elapsedSeconds": 1.312,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 570",
+        "Ratelimit-Reset: 47"
+      ]
+    },
+    {
+      "file": "raw/tx-b09a484e6ce903eab7736c048276131d73209ccf4cca429eeb93c447d3ec8830-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/b09a484e6ce903eab7736c048276131d73209ccf4cca429eeb93c447d3ec8830/verbose",
+      "observedAt": "2026-09-25T18:27:20.146283+00:00",
+      "status": 200,
+      "sha256": "386f4d4f3e42c230d5e107867c87def1226b9016cb70dde7eeeabc6410da77d0",
+      "bytes": 94167,
+      "elapsedSeconds": 1.25,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 569",
+        "Ratelimit-Reset: 46"
+      ]
+    },
+    {
+      "file": "raw/tx-b826db218972452cf0497810f0214805e5e2a73ba99eba8a457a62ba07e601ad-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/b826db218972452cf0497810f0214805e5e2a73ba99eba8a457a62ba07e601ad/verbose",
+      "observedAt": "2026-09-25T18:26:49.794962+00:00",
+      "status": 200,
+      "sha256": "63e27f52b0b8325e65a5b6e2774d4fd4121971ec738d68da2cf4bbf3c33ac1c2",
+      "bytes": 2952,
+      "elapsedSeconds": 1.547,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 556",
+        "Ratelimit-Reset: 15"
+      ]
+    },
+    {
+      "file": "raw/tx-b86312833e4d949c5a23cea2177aa1cef2b0430825d00142f96d27e69484c130-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/b86312833e4d949c5a23cea2177aa1cef2b0430825d00142f96d27e69484c130/verbose",
+      "observedAt": "2026-09-25T18:26:50.082143+00:00",
+      "status": 200,
+      "sha256": "c5660483d041cab9ada473cd8dd933aee2d6bb9b60f434ccbb178c8dc9a99860",
+      "bytes": 2960,
+      "elapsedSeconds": 0.985,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 555",
+        "Ratelimit-Reset: 14"
+      ]
+    },
+    {
+      "file": "raw/tx-ba03bb3a96200f5aa59aaa23eab2e1aeaf86e512a82aaef034832b19fd846685-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/ba03bb3a96200f5aa59aaa23eab2e1aeaf86e512a82aaef034832b19fd846685/verbose",
+      "observedAt": "2026-09-25T18:26:50.086146+00:00",
+      "status": 200,
+      "sha256": "5144467c802973d3ac2222da36a2c2c627b064a86c2658db122e07543f34e2a2",
+      "bytes": 2844,
+      "elapsedSeconds": 0.969,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 554",
+        "Ratelimit-Reset: 14"
+      ]
+    },
+    {
+      "file": "raw/tx-bd8200bbb6598d962de600739263cccfca33b7b21db09b5a8322803f7c9a1bdc-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/bd8200bbb6598d962de600739263cccfca33b7b21db09b5a8322803f7c9a1bdc/verbose",
+      "observedAt": "2026-09-25T18:26:55.215253+00:00",
+      "status": 200,
+      "sha256": "ef9c284d29c00a9e2727e05004975ea85a8aeb3f268e53fcaad4d9ab3f4e4fc9",
+      "bytes": 2993,
+      "elapsedSeconds": 5.407,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 553",
+        "Ratelimit-Reset: 14"
+      ]
+    },
+    {
+      "file": "raw/tx-cabdea95d0d9999188c0e3ee0c79948f4965fdf7892754b0ec26ed192f3e12e5-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/cabdea95d0d9999188c0e3ee0c79948f4965fdf7892754b0ec26ed192f3e12e5/verbose",
+      "observedAt": "2026-09-25T18:26:58.461485+00:00",
+      "status": 200,
+      "sha256": "30769fa9531156e5fc983bfd6e1a056fff014dce0d7376bf24073c0ec0f31be0",
+      "bytes": 2952,
+      "elapsedSeconds": 8.375,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 550",
+        "Ratelimit-Reset: 6"
+      ]
+    },
+    {
+      "file": "raw/tx-cc2a4a9e9560eabeac646143ae3da711f09be4abadf43f89c4f46ca1774bdc14-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/cc2a4a9e9560eabeac646143ae3da711f09be4abadf43f89c4f46ca1774bdc14/verbose",
+      "observedAt": "2026-09-25T18:26:58.428866+00:00",
+      "status": 200,
+      "sha256": "6ca694f0481bd23ab6f535e863f81154dd3c08b3a522a587ad23a3d9e57220a0",
+      "bytes": 2952,
+      "elapsedSeconds": 8.343,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 552",
+        "Ratelimit-Reset: 6"
+      ]
+    },
+    {
+      "file": "raw/tx-d061eb96af359fc36098f4acc17c549fb11bbce436b8bccb3a112f9fdbb5fc56-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/d061eb96af359fc36098f4acc17c549fb11bbce436b8bccb3a112f9fdbb5fc56/verbose",
+      "observedAt": "2026-09-25T18:26:58.537183+00:00",
+      "status": 200,
+      "sha256": "902ff5348910af729a85667dfff65075ef89e26078d3665481a13b3ab23e243f",
+      "bytes": 3091,
+      "elapsedSeconds": 3.313,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 551",
+        "Ratelimit-Reset: 6"
+      ]
+    },
+    {
+      "file": "raw/tx-d08ea519bfce45bd578d863bad251d283def4c0642b0204802105156b99e604f-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/d08ea519bfce45bd578d863bad251d283def4c0642b0204802105156b99e604f/verbose",
+      "observedAt": "2026-09-25T18:26:59.635721+00:00",
+      "status": 200,
+      "sha256": "38237710b3d61c2a8029f2d89ab775a9a3592664aaeaf6b93148969809c3bfb2",
+      "bytes": 3297,
+      "elapsedSeconds": 1.203,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 549",
+        "Ratelimit-Reset: 5"
+      ]
+    },
+    {
+      "file": "raw/tx-d0e506e579fca1e6421f644bc04e25d2709c9e528ad80799ed2acff4b08d699d-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/d0e506e579fca1e6421f644bc04e25d2709c9e528ad80799ed2acff4b08d699d/verbose",
+      "observedAt": "2026-09-25T18:26:59.636717+00:00",
+      "status": 200,
+      "sha256": "f77b35aa4e1180c170b5ed8362c07d22868c57ef3f075a9f0970a3b7d3c9c8e2",
+      "bytes": 2952,
+      "elapsedSeconds": 1.171,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 548",
+        "Ratelimit-Reset: 5"
+      ]
+    },
+    {
+      "file": "raw/tx-d13d8f7a6bfe09527fd77dd59110a0e1432b85b3021299f77f381a15583b15ff-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/d13d8f7a6bfe09527fd77dd59110a0e1432b85b3021299f77f381a15583b15ff/verbose",
+      "observedAt": "2026-09-25T18:26:59.925707+00:00",
+      "status": 200,
+      "sha256": "380c55b5941174ba2b1e8f499828e87ed52938fc021a951e582ba97a9f88e9d8",
+      "bytes": 57219,
+      "elapsedSeconds": 1.39,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 547",
+        "Ratelimit-Reset: 5"
+      ]
+    },
+    {
+      "file": "raw/tx-d7a13c3365df0f4a3377356e1ea607321125799676d29e3e6832588de3d7638b-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/d7a13c3365df0f4a3377356e1ea607321125799676d29e3e6832588de3d7638b/verbose",
+      "observedAt": "2026-09-25T18:27:00.140062+00:00",
+      "status": 200,
+      "sha256": "bfd1b05e19d034f17da60da183be9f01bbc795b3c5a65d25d97518e28cef2101",
+      "bytes": 2960,
+      "elapsedSeconds": 0.516,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 545",
+        "Ratelimit-Reset: 4"
+      ]
+    },
+    {
+      "file": "raw/tx-d822b4bcf6c76e4f5e4c86da1b9a3bd20fc111bc630aa55f7fa8751af9d96be1-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/d822b4bcf6c76e4f5e4c86da1b9a3bd20fc111bc630aa55f7fa8751af9d96be1/verbose",
+      "observedAt": "2026-09-25T18:23:51.025927+00:00",
+      "status": 200,
+      "sha256": "5b76cfdcb5fbe137eecccd961dd15f9aff627ced9eaca60cea718c1dff460d8a",
+      "bytes": 6185,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 584",
+        "Ratelimit-Reset: 57"
+      ]
+    },
+    {
+      "file": "raw/tx-d865c1e0d79416d9dc67ce7c7d18d3821a63ee627c894779e5bb17be2caff6d9-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/d865c1e0d79416d9dc67ce7c7d18d3821a63ee627c894779e5bb17be2caff6d9/verbose",
+      "observedAt": "2026-09-25T18:27:00.120314+00:00",
+      "status": 200,
+      "sha256": "f7ddb1251e550f563d559d1144c7c855aff62040a33fbdf4688f0dec7d6bff20",
+      "bytes": 2845,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 546",
+        "Ratelimit-Reset: 4"
+      ]
+    },
+    {
+      "file": "raw/tx-dd7d9e1d334a9a991b0216692c71cc91aefaaf7cb7c18376cfbb5d4254791f53-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/dd7d9e1d334a9a991b0216692c71cc91aefaaf7cb7c18376cfbb5d4254791f53/verbose",
+      "observedAt": "2026-09-25T18:23:52.516423+00:00",
+      "status": 200,
+      "sha256": "20156745264aeb615eb88a33d3255d7655286579a5f082f190918c9bd2fe2325",
+      "bytes": 2797,
+      "elapsedSeconds": 0.484,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 577",
+        "Ratelimit-Reset: 56"
+      ]
+    },
+    {
+      "file": "raw/tx-ddfb988f521b7f166411b545c92afe1ee19790c44387ddbf5613498d32b2bb5c-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/ddfb988f521b7f166411b545c92afe1ee19790c44387ddbf5613498d32b2bb5c/verbose",
+      "observedAt": "2026-09-25T18:27:00.455286+00:00",
+      "status": 200,
+      "sha256": "2fe2c00fca6f14bfe86d798b7b7aecda26e93a557705637ff5fdd3114e2e1c29",
+      "bytes": 3115,
+      "elapsedSeconds": 0.532,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 544",
+        "Ratelimit-Reset: 4"
+      ]
+    },
+    {
+      "file": "raw/tx-e03795edcba6b0f0f82fe4c8c62d559a94b4d70e5873328a7c4d4e201e5892df-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/e03795edcba6b0f0f82fe4c8c62d559a94b4d70e5873328a7c4d4e201e5892df/verbose",
+      "observedAt": "2026-09-25T18:27:00.606533+00:00",
+      "status": 200,
+      "sha256": "06e53af3cec6f77a119b1636ec9d6d3c98ce0279968be11e3745ceac3375f6c3",
+      "bytes": 2853,
+      "elapsedSeconds": 0.484,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 543",
+        "Ratelimit-Reset: 4"
+      ]
+    },
+    {
+      "file": "raw/tx-e19435bdc841951b4eb03f8dbc227e75f65d72467451ff9061d854f1cdf9c079-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/e19435bdc841951b4eb03f8dbc227e75f65d72467451ff9061d854f1cdf9c079/verbose",
+      "observedAt": "2026-09-25T18:27:00.620050+00:00",
+      "status": 200,
+      "sha256": "6c006e746d25f9d866e7d98e83516c7181de6b8431315487900fa6f2eb0e794f",
+      "bytes": 2952,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 542",
+        "Ratelimit-Reset: 4"
+      ]
+    },
+    {
+      "file": "raw/tx-e1b5504ca4e02dfa3bd6ba171a0ab457b75dd434ec30014a5116e1c66dc9f837-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/e1b5504ca4e02dfa3bd6ba171a0ab457b75dd434ec30014a5116e1c66dc9f837/verbose",
+      "observedAt": "2026-09-25T18:27:00.919340+00:00",
+      "status": 200,
+      "sha256": "270e47a411c8f2c2e33dcb8a893c0919368cedb5907ac7218751ce654e8da13d",
+      "bytes": 4004,
+      "elapsedSeconds": 0.453,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 541",
+        "Ratelimit-Reset: 4"
+      ]
+    },
+    {
+      "file": "raw/tx-e3afeffeb25de25a5d307caf9aeb574a578428c61dbf8d4cf9d73760fabd466d-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/e3afeffeb25de25a5d307caf9aeb574a578428c61dbf8d4cf9d73760fabd466d/verbose",
+      "observedAt": "2026-09-25T18:27:01.080622+00:00",
+      "status": 200,
+      "sha256": "1547d154a2d26d058b341255ab9138ef1427ffd9666ff718047124f94c56fed4",
+      "bytes": 2976,
+      "elapsedSeconds": 0.469,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 540",
+        "Ratelimit-Reset: 3"
+      ]
+    },
+    {
+      "file": "raw/tx-ef1411d2d212db9a3b7b231ddb9742f901a4376f2a902d17fdd188eb606e6fe4-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/ef1411d2d212db9a3b7b231ddb9742f901a4376f2a902d17fdd188eb606e6fe4/verbose",
+      "observedAt": "2026-09-25T18:27:01.137684+00:00",
+      "status": 200,
+      "sha256": "6cd92e96ead77595c31e18940116afcbd84e1d3219324f4545675b3927caac5e",
+      "bytes": 3091,
+      "elapsedSeconds": 0.515,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 539",
+        "Ratelimit-Reset: 3"
+      ]
+    },
+    {
+      "file": "raw/tx-f004c89292d401c9111e45a56daf552b72699d0f7c87c3456a1e059aa5b86a37-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/f004c89292d401c9111e45a56daf552b72699d0f7c87c3456a1e059aa5b86a37/verbose",
+      "observedAt": "2026-09-25T18:27:01.426978+00:00",
+      "status": 200,
+      "sha256": "4c75994e0d79e6e0048d44d10576abdfd9aa0d36f9f91435c509c05ee9d38ae4",
+      "bytes": 3107,
+      "elapsedSeconds": 0.5,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 538",
+        "Ratelimit-Reset: 3"
+      ]
+    },
+    {
+      "file": "raw/tx-f0267f16a6507ad1bf881334dd16a798f267a126801951e2ba88476d2d851227-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/f0267f16a6507ad1bf881334dd16a798f267a126801951e2ba88476d2d851227/verbose",
+      "observedAt": "2026-09-25T18:27:01.731199+00:00",
+      "status": 200,
+      "sha256": "98ee3a63347a731bbfca8c398155d2a5734bd878ca2c4f6e44c5bb9ba618133b",
+      "bytes": 3002,
+      "elapsedSeconds": 0.64,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 537",
+        "Ratelimit-Reset: 3"
+      ]
+    },
+    {
+      "file": "raw/tx-fa82dcd4588d812c213fcb85661a290967e1e3d112deda0e964ed4cffab46435-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/fa82dcd4588d812c213fcb85661a290967e1e3d112deda0e964ed4cffab46435/verbose",
+      "observedAt": "2026-09-25T18:27:01.732198+00:00",
+      "status": 200,
+      "sha256": "e3966227c5807960007ceb97fd022b11fff9ad87a12a5b1d314e0332057f5d2a",
+      "bytes": 2977,
+      "elapsedSeconds": 0.578,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 536",
+        "Ratelimit-Reset: 3"
+      ]
+    },
+    {
+      "file": "raw/tx-ff24be0cf19e346a1f093f2e2500a8f244551ad801f3e63475a335935a56b644-verbose.json",
+      "url": "https://api.mainnet.cipherscan.app/api/tx/ff24be0cf19e346a1f093f2e2500a8f244551ad801f3e63475a335935a56b644/verbose",
+      "observedAt": "2026-09-25T18:27:02.021679+00:00",
+      "status": 200,
+      "sha256": "72a35da5e85d0e4e6b5afe2c194a03a36631f05506d6723f1b5e520027e89190",
+      "bytes": 2854,
+      "elapsedSeconds": 0.594,
+      "rateLimitHeaders": [
+        "Ratelimit-Limit: 600",
+        "Ratelimit-Policy: 600;w=60",
+        "Ratelimit-Remaining: 535",
+        "Ratelimit-Reset: 3"
+      ]
+    }
+  ]
+}

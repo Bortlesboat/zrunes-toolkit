@@ -1,0 +1,3 @@
+* text eol=lf
+fixtures/mainnet/raw/** -text -whitespace
+research/settlement/evidence/** -text -whitespace

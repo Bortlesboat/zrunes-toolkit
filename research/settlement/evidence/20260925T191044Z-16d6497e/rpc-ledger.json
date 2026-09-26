@@ -1,0 +1,44 @@
+{
+  "schema": "zec-market-zrunes-ledger-v1",
+  "protocol": "zrunes-v1",
+  "network": "regtest",
+  "tip": {
+    "height": 110,
+    "hash": "5e65b2cdc86de06f89eeddfa5922a73863f6fcab36099edbc98f0b7b6cb91034"
+  },
+  "coverage": {
+    "mode": "complete",
+    "complete": true,
+    "from": 1,
+    "to": 110,
+    "gaps": []
+  },
+  "assets": [
+    {
+      "id": "108:1",
+      "name": "REGTESTATOMICLOT",
+      "etchTxid": "8115e249079b5ed0873f9dc9def2a426e254454a7d83f0145ac9f4ce169e4b2a",
+      "etchHeight": 108,
+      "divisibility": 0,
+      "premine": "1000000000000000001",
+      "amount": "0",
+      "cap": "0",
+      "start": null,
+      "end": null,
+      "mints": "0",
+      "burned": "0",
+      "closed": true,
+      "supply": "1000000000000000001",
+      "circulating": "1000000000000000001"
+    }
+  ],
+  "outputs": [
+    {
+      "outpoint": "d1cb4dc082ecf30a606b95fa6fe250ab216c6edc6dcc54a8c993233adf9c951f:1",
+      "script": "76a9141e3ea287c5ea24394daa072ca817859103cafc7188ac",
+      "balances": {
+        "108:1": "1000000000000000001"
+      }
+    }
+  ]
+}
