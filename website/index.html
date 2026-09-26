@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Try the open-source ZRunes toolkit. Decode an instruction and replay a historical Zcash sample, right in your browser."
+    />
+    <meta name="theme-color" content="#f5f4ed" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      property="og:title"
+      content="ZRunes Toolkit — see what the tools can do"
+    />
+    <meta
+      property="og:description"
+      content="An open-source developer playground for decoding ZRunes and replaying a historical Zcash sample."
+    />
+    <meta property="og:type" content="website" />
+    <link
+      rel="canonical"
+      href="https://bortlesboat.github.io/zrunes-toolkit/"
+    />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="preload"
+      href="./fonts/ibm-plex-sans-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <title>ZRunes Toolkit — the developer playground</title>
+  </head>
+  <body>
+    <a class="skip" href="#decoder">Skip to decoder</a>
+    <header class="site-header wrap">
+      <a class="brand" href="#top" aria-label="ZRunes Toolkit home"
+        ><img src="./favicon.svg" width="34" height="34" alt="" /><span
+          >ZRunes <b>Toolkit</b></span
+        ></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#sample">Sample ledger</a><a href="#build">Build with it</a
+        ><a href="https://github.com/Bortlesboat/zrunes-toolkit"
+          >GitHub <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main id="top" class="wrap">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">
+            <span class="signal" aria-hidden="true"></span> OPEN SOURCE · ZCASH
+            · EXPERIMENTAL
+          </p>
+          <h1 id="page-title">ZRunes,<br /><span>made readable.</span></h1>
+        </div>
+        <div class="intro-copy">
+          <p>From a transaction’s bytes to the tokens they describe.</p>
+          <p class="muted">
+            Try the tools behind a ZRunes wallet, explorer or indexer. Start
+            with an example, then bring your own script.
+          </p>
+          <a
+            class="text-link"
+            href="https://github.com/Bortlesboat/zrunes-toolkit/blob/v0.1.0/docs/api.md"
+            >Read the API guide <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+
+      <section id="decoder" class="workspace" aria-labelledby="decoder-heading">
+        <div class="workspace-heading">
+          <div class="section-label">
+            <span class="step">01</span>
+            <h2 id="decoder-heading">Decode a message</h2>
+          </div>
+          <span class="local-badge">Runs in your browser</span>
+        </div>
+        <div class="decoder-grid">
+          <form id="decode-form" class="editor">
+            <fieldset class="examples">
+              <legend>Load an example</legend>
+              <div id="example-buttons" class="example-buttons"></div>
+            </fieldset>
+            <div class="input-heading">
+              <label for="script"
+                >Output script <span class="subtle">/ hex</span></label
+              ><span id="byte-count" class="mono subtle">— bytes</span>
+            </div>
+            <textarea
+              id="script"
+              name="script"
+              rows="4"
+              spellcheck="false"
+              autocapitalize="off"
+              autocomplete="off"
+              maxlength="4096"
+              aria-describedby="script-help input-error"
+              required
+            ></textarea>
+            <p id="script-help" class="help">
+              Paste the transparent output’s script, not a whole transaction.
+            </p>
+            <div class="editor-actions">
+              <div class="output-setting">
+                <label for="outputs">Outputs in transaction</label
+                ><input
+                  id="outputs"
+                  name="outputs"
+                  type="number"
+                  min="1"
+                  max="32"
+                  value="3"
+                  required
+                />
+              </div>
+              <button class="primary" type="submit" id="decode-button" disabled>
+                Decode script <span aria-hidden="true">→</span>
+              </button>
+            </div>
+            <p id="input-error" class="error-text" role="alert"></p>
+            <details class="context-note">
+              <summary>How this demo sets output context</summary>
+              <p>
+                The script is placed in the last output. Other outputs are
+                spendable placeholders with zero ZEC. Output count affects
+                allocation rules. Use the complete transaction output array in
+                your own integration.
+              </p>
+            </details>
+          </form>
+          <div class="decoded-panel" aria-labelledby="result-heading">
+            <div class="result-heading">
+              <h3 id="result-heading">Decoded instruction</h3>
+              <span id="decode-status" class="status">Loading</span>
+            </div>
+            <p
+              id="result-summary"
+              class="result-summary"
+              role="status"
+              aria-live="polite"
+            >
+              Loading the toolkit…
+            </p>
+            <dl id="decoded-fields" class="decoded-fields"></dl>
+            <div id="decode-diagnostics" class="diagnostics" hidden></div>
+            <details id="raw-result" class="raw-result">
+              <summary>View decoded JSON</summary>
+              <pre
+                id="decoded-json"
+                tabindex="0"
+                aria-label="Decoded JSON result"
+              ></pre>
+            </details>
+            <p class="result-footnote">
+              Decoding identifies instructions. Ownership and mint eligibility
+              require the preceding chain history.
+            </p>
+          </div>
+        </div>
+        <div class="protocol-note">
+          <span class="protocol-mark" aria-hidden="true">6a5e</span>
+          <p>
+            <strong>ZRunes v1</strong> uses <code>OP_RETURN OP_14</code> on
+            Zcash’s transparent pool. Activity is public; token rules are
+            interpreted by an indexer.
+            <a
+              href="https://github.com/bitcoinuniverseio/docs-zerdinals-and-zrunes/blob/de03cd1850cace694320ba3cc44789c2036daa7a/src/content/docs/protocols/zrunes-v1.md"
+              >Protocol specification ↗</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="sample"
+        class="sample-section"
+        aria-labelledby="sample-heading"
+      >
+        <div class="section-top">
+          <div>
+            <div class="section-label">
+              <span class="step">02</span>
+              <h2 id="sample-heading">Replay a piece of the chain</h2>
+            </div>
+            <p class="section-description">
+              The ledger reads recorded blocks and reconstructs the token
+              amounts in that sample.
+            </p>
+          </div>
+          <button type="button" class="secondary" id="replay-button" disabled>
+            Replay sample <span aria-hidden="true">↻</span>
+          </button>
+        </div>
+        <div class="sample-metadata">
+          <span class="sample-label">HISTORICAL SAMPLE</span
+          ><span>25 Sep 2026</span
+          ><span id="sample-counts">Loading sample…</span
+          ><span>Incomplete mainnet coverage</span>
+        </div>
+        <p
+          id="sample-status"
+          class="sample-status"
+          role="status"
+          aria-live="polite"
+        >
+          Run the sample to see what the ledger reconstructs.
+        </p>
+        <div class="ledger-grid">
+          <div
+            class="table-scroll"
+            tabindex="0"
+            role="region"
+            aria-label="Historical sample token table"
+          >
+            <table>
+              <caption class="sr-only">
+                Observed tokens in the incomplete September 25 sample. Amounts
+                are raw units.
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">Token / etching ID</th>
+                  <th scope="col" class="numeric">Supply in sample</th>
+                  <th scope="col" class="numeric">Burned</th>
+                </tr>
+              </thead>
+              <tbody id="asset-rows">
+                <tr>
+                  <td colspan="3">The sample ledger will appear here.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <aside class="asset-detail" aria-labelledby="asset-name">
+            <p class="eyebrow">INSPECT A TOKEN</p>
+            <h3 id="asset-name">Select a token</h3>
+            <dl id="asset-values"></dl>
+            <p class="help">
+              Amounts use exact raw integer units. This sample cannot establish
+              current balances or the absence of other tokens.
+            </p>
+          </aside>
+        </div>
+        <div class="sample-bottom">
+          <p>
+            Recorded observations, replayed locally. No live node is queried.
+          </p>
+          <a
+            class="text-link"
+            href="https://github.com/Bortlesboat/zrunes-toolkit/blob/v0.1.0/docs/mainnet-evidence.md"
+            >Inspect the evidence ↗</a
+          >
+        </div>
+      </section>
+
+      <section id="build" class="build-section" aria-labelledby="build-heading">
+        <div>
+          <p class="eyebrow">YOUR NEXT BUILD</p>
+          <h2 id="build-heading">Less guessing.<br />More building.</h2>
+          <p>
+            Use the Node.js library to decode instructions, reconstruct a ledger
+            and test your interpretation.
+          </p>
+          <p class="muted">
+            Independent implementation. MIT licensed. Full reference conformance
+            and production wallet support remain unverified.
+          </p>
+          <div class="build-links">
+            <a
+              href="https://github.com/Bortlesboat/zrunes-toolkit/blob/v0.1.0/docs/integration.md"
+              >Integration guide ↗</a
+            ><a href="https://github.com/Bortlesboat/zrunes-toolkit/issues"
+              >Contribute ↗</a
+            >
+          </div>
+        </div>
+        <div class="code-example">
+          <div class="code-bar">
+            <span>START WITH NODE.JS 22+</span
+            ><button type="button" id="copy-install" disabled>
+              Copy install
+            </button>
+          </div>
+          <pre id="install-command" tabindex="0">
+npm install github:Bortlesboat/zrunes-toolkit#v0.1.0</pre>
+          <pre
+            class="js-example"
+            tabindex="0"
+            aria-label="JavaScript decoding example"
+          ><code><span class="syntax-key">import</span> { decode } <span class="syntax-key">from</span> <span class="syntax-string">'@bortlesboat/zrunes-toolkit'</span>;
+
+<span class="syntax-key">const</span> outputs = [{
+  n: <span class="syntax-number">0</span>, valueZat: <span class="syntax-string">'0'</span>,
+  scriptPubKey: { hex: <span class="syntax-string">'6a5e03180700'</span> },
+}];
+
+<span class="syntax-key">const</span> message = decode(outputs);
+console.log(message.kind); <span class="syntax-comment">// 'valid'</span></code></pre>
+          <p
+            id="copy-status"
+            class="copy-status"
+            role="status"
+            aria-live="polite"
+          ></p>
+        </div>
+      </section>
+      <noscript
+        ><p class="no-script">
+          JavaScript is required for the interactive tools. You can still
+          <a href="https://github.com/Bortlesboat/zrunes-toolkit"
+            >clone the toolkit</a
+          >
+          and run the examples locally.
+        </p></noscript
+      >
+    </main>
+    <footer class="site-footer wrap">
+      <p>ZRunes Toolkit <span>Independent · Experimental · MIT</span></p>
+      <div>
+        <a
+          href="https://github.com/Bortlesboat/zrunes-toolkit/blob/v0.1.0/docs/related-work.md"
+          >Related work</a
+        ><a href="./licenses.txt">Attribution &amp; licenses</a
+        ><a href="https://github.com/Bortlesboat/zrunes-toolkit/security"
+          >Security</a
+        >
+      </div>
+    </footer>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

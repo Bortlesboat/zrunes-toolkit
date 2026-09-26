@@ -11,6 +11,11 @@ activity are public on Zcash's transparent pool.
 
 ## Try it
 
+Open the [interactive demo](https://bortlesboat.github.io/zrunes-toolkit/) to decode
+scripts and replay the historical sample in your browser. The demo uses the same
+codec and ledger through a site-specific adapter; the published library remains
+Node.js-only. See [website development](https://github.com/Bortlesboat/zrunes-toolkit/blob/main/website/README.md) to run the site locally.
+
 Install Node.js 22 or newer and Git. No npm dependencies are needed for the
 JavaScript commands.
 

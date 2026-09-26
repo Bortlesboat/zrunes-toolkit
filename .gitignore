@@ -1,4 +1,7 @@
 node_modules/
+website/dist/
+output/playwright/
+.playwright-cli/
 *.tgz
 coverage/
 *.lock.tmp

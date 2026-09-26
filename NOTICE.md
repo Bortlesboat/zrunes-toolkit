@@ -36,6 +36,9 @@ line endings in this release do not retroactively change the recorded run.
 ## Dependencies
 
 The JavaScript library uses Node.js built-ins and has no runtime npm dependencies.
+The separate browser demo bundles `@noble/hashes`, `buffer`, `base64-js` and
+`ieee754`, and self-hosts Barlow Semi Condensed and IBM Plex Sans fonts. Their
+notices are included in the site's `licenses.txt`; see [website attribution](https://github.com/Bortlesboat/zrunes-toolkit/blob/main/website/README.md#attribution).
 The optional Rust settlement experiment uses dependencies pinned in its
 `Cargo.lock`, including the Zcash libraries and secp256k1. These dependencies
 retain their own licenses; their source or binaries are not vendored here.
