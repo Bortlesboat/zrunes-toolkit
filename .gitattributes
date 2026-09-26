@@ -1,3 +1,5 @@
 * text eol=lf
+website/fonts/*.woff2 binary
+website/fonts/*-OFL.txt -text -whitespace
 fixtures/mainnet/raw/** -text -whitespace
 research/settlement/evidence/** -text -whitespace
